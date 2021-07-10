@@ -82,7 +82,7 @@
                 </option>
                 <option>
                     <name>GEndianModeBE</name>
-                    <state>0</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>OGBufferedTerminalOutput</name>
@@ -99,7 +99,7 @@
                 <option>
                     <name>GBECoreSlave</name>
                     <version>30</version>
-                    <state>38</state>
+                    <state>39</state>
                 </option>
                 <option>
                     <name>OGUseCmsis</name>
@@ -180,7 +180,7 @@
                 </option>
                 <option>
                     <name>DSPExtension</name>
-                    <state>0</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>TrustZone</name>
@@ -2095,12 +2095,6 @@
         <name>$PROJ_DIR$\src\startup_TM4C1294.s</name>
     </file>
     <file>
-        <name>$PROJ_DIR$\src\system_TM4C1294.h</name>
-    </file>
-    <file>
         <name>$PROJ_DIR$\src\system_TM4C1294_TW.c</name>
-    </file>
-    <file>
-        <name>$PROJ_DIR$\src\TM4C1294NCPDT.h</name>
     </file>
 </project>

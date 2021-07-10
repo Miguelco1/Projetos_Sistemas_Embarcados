@@ -2904,6 +2904,48 @@
     "scope": null
   },
   {
+    "ID": "c:@F@SystemInit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int SystemInit(void)",
+    "location": {
+      "column": "8",
+      "line": "8",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\Laboratorio_01.c"
+    },
+    "name": "SystemInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@LED_D4",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "LED_D4",
+    "location": {
+      "column": "9",
+      "line": "8",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\Laboratorio_01.c"
+    },
+    "name": "LED_D4",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SystemInit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void SystemInit(void)",
+    "location": {
+      "column": "13",
+      "line": "8",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\Laboratorio_01.c"
+    },
+    "name": "SystemInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@LED_D1",
     "What": "Variable",
     "defdec": "Dec",
@@ -2911,6 +2953,34 @@
     "location": {
       "column": "9",
       "line": "9",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\Laboratorio_01.c"
+    },
+    "name": "LED_D1",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@LED_D4",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "LED_D4",
+    "location": {
+      "column": "9",
+      "line": "9",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\Laboratorio_01.c"
+    },
+    "name": "LED_D4",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@LED_D1",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "LED_D1",
+    "location": {
+      "column": "9",
+      "line": "10",
       "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\Laboratorio_01.c"
     },
     "name": "LED_D1",
@@ -2946,6 +3016,34 @@
     "scope": null
   },
   {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void main(void)",
+    "location": {
+      "column": "6",
+      "line": "11",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\Laboratorio_01.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@LED_D1",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "LED_D1",
+    "location": {
+      "column": "9",
+      "line": "11",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\Laboratorio_01.c"
+    },
+    "name": "LED_D1",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@SysTick_Handler",
     "What": "Function",
     "defdec": "Def",
@@ -2953,6 +3051,62 @@
     "location": {
       "column": "6",
       "line": "12",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\Laboratorio_01.c"
+    },
+    "name": "SysTick_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SysTick_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SysTick_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "12",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\Laboratorio_01.c"
+    },
+    "name": "SysTick_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@LED_D1",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "LED_D1",
+    "location": {
+      "column": "9",
+      "line": "12",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\Laboratorio_01.c"
+    },
+    "name": "LED_D1",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SysTick_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SysTick_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "13",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\Laboratorio_01.c"
+    },
+    "name": "SysTick_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SysTick_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SysTick_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "14",
       "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\Laboratorio_01.c"
     },
     "name": "SysTick_Handler",
@@ -2980,10 +3134,500 @@
     "display": "void main(void)",
     "location": {
       "column": "6",
+      "line": "16",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\Laboratorio_01.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void main(void)",
+    "location": {
+      "column": "6",
+      "line": "17",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\Laboratorio_01.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void main(void)",
+    "location": {
+      "column": "6",
+      "line": "17",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\Laboratorio_01.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void main(void)",
+    "location": {
+      "column": "6",
+      "line": "17",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\Laboratorio_01.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void main(void)",
+    "location": {
+      "column": "6",
+      "line": "17",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\Laboratorio_01.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void main(void)",
+    "location": {
+      "column": "6",
+      "line": "18",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\Laboratorio_01.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void main(void)",
+    "location": {
+      "column": "6",
+      "line": "18",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\Laboratorio_01.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void main(void)",
+    "location": {
+      "column": "6",
+      "line": "18",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\Laboratorio_01.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void main(void)",
+    "location": {
+      "column": "6",
+      "line": "18",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\Laboratorio_01.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void main(void)",
+    "location": {
+      "column": "6",
+      "line": "18",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\Laboratorio_01.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void main(void)",
+    "location": {
+      "column": "6",
+      "line": "18",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\Laboratorio_01.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void main(void)",
+    "location": {
+      "column": "6",
+      "line": "18",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\Laboratorio_01.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void main(void)",
+    "location": {
+      "column": "6",
       "line": "19",
       "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\Laboratorio_01.c"
     },
     "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void main(void)",
+    "location": {
+      "column": "6",
+      "line": "19",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\Laboratorio_01.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Laboratorio_01.c@722@F@main@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "7",
+      "line": "20",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\Laboratorio_01.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Laboratorio_01.c@1467@F@main@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "7",
+      "line": "36",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\Laboratorio_01.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Laboratorio_01.c@1512@F@main@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "7",
+      "line": "38",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\Laboratorio_01.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Laboratorio_01.c@1514@F@main@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "7",
+      "line": "38",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\Laboratorio_01.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Laboratorio_01.c@1515@F@main@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "7",
+      "line": "38",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\Laboratorio_01.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Laboratorio_01.c@1519@F@main@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "7",
+      "line": "38",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\Laboratorio_01.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Laboratorio_01.c@1516@F@main@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "7",
+      "line": "39",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\Laboratorio_01.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Laboratorio_01.c@1548@F@main@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "7",
+      "line": "39",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\Laboratorio_01.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Laboratorio_01.c@1550@F@main@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "7",
+      "line": "39",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\Laboratorio_01.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Laboratorio_01.c@1523@F@main@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "7",
+      "line": "39",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\Laboratorio_01.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Laboratorio_01.c@1531@F@main@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "7",
+      "line": "39",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\Laboratorio_01.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Laboratorio_01.c@1532@F@main@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "7",
+      "line": "39",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\Laboratorio_01.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Laboratorio_01.c@1552@F@main@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "7",
+      "line": "39",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\Laboratorio_01.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Laboratorio_01.c@1564@F@main@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "7",
+      "line": "39",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\Laboratorio_01.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Laboratorio_01.c@1560@F@main@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "7",
+      "line": "39",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\Laboratorio_01.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Laboratorio_01.c@1566@F@main@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "7",
+      "line": "39",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\Laboratorio_01.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Laboratorio_01.c@1559@F@main@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "7",
+      "line": "39",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\Laboratorio_01.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Laboratorio_01.c@1557@F@main@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "7",
+      "line": "39",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\Laboratorio_01.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Laboratorio_01.c@1564@F@main@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "7",
+      "line": "40",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\Laboratorio_01.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Laboratorio_01.c@1583@F@main@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "14",
+      "line": "41",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\Laboratorio_01.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Laboratorio_01.c@1889@F@main@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "7",
+      "line": "42",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\Laboratorio_01.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:Laboratorio_01.c@1902@F@main@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "7",
+      "line": "43",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\Laboratorio_01.c"
+    },
+    "name": "i",
     "origin": "project_file",
     "scope": null
   },
@@ -26374,6 +27018,20 @@
     "scope": null
   },
   {
+    "ID": "c:system_TM4C1294_TW.c@757@macro@__CONFIG_CLOCK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__CONFIG_CLOCK",
+    "location": {
+      "column": "9",
+      "line": "17",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\system_TM4C1294_TW.c"
+    },
+    "name": "__CONFIG_CLOCK",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:system_TM4C1294_TW.c@919@macro@__SYSTEM_CLOCK",
     "What": "MacroDef",
     "defdec": "Def",
@@ -26395,6 +27053,118 @@
     "location": {
       "column": "9",
       "line": "19",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\system_TM4C1294_TW.c"
+    },
+    "name": "__SYSTEM_CLOCK",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:system_TM4C1294_TW.c@866@macro@__CONFIG_CLOCK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__CONFIG_CLOCK",
+    "location": {
+      "column": "9",
+      "line": "20",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\system_TM4C1294_TW.c"
+    },
+    "name": "__CONFIG_CLOCK",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:system_TM4C1294_TW.c@866@macro@__CONFIG_CLOCK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__CONFIG_CLOCK",
+    "location": {
+      "column": "9",
+      "line": "20",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\system_TM4C1294_TW.c"
+    },
+    "name": "__CONFIG_CLOCK",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:system_TM4C1294_TW.c@1028@macro@__SYSTEM_CLOCK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__SYSTEM_CLOCK",
+    "location": {
+      "column": "9",
+      "line": "22",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\system_TM4C1294_TW.c"
+    },
+    "name": "__SYSTEM_CLOCK",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:system_TM4C1294_TW.c@1030@macro@__SYSTEM_CLOCK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__SYSTEM_CLOCK",
+    "location": {
+      "column": "9",
+      "line": "23",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\system_TM4C1294_TW.c"
+    },
+    "name": "__SYSTEM_CLOCK",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:system_TM4C1294_TW.c@1030@macro@__SYSTEM_CLOCK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__SYSTEM_CLOCK",
+    "location": {
+      "column": "9",
+      "line": "23",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\system_TM4C1294_TW.c"
+    },
+    "name": "__SYSTEM_CLOCK",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:system_TM4C1294_TW.c@1030@macro@__SYSTEM_CLOCK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__SYSTEM_CLOCK",
+    "location": {
+      "column": "9",
+      "line": "23",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\system_TM4C1294_TW.c"
+    },
+    "name": "__SYSTEM_CLOCK",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:system_TM4C1294_TW.c@1030@macro@__SYSTEM_CLOCK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__SYSTEM_CLOCK",
+    "location": {
+      "column": "9",
+      "line": "23",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\system_TM4C1294_TW.c"
+    },
+    "name": "__SYSTEM_CLOCK",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:system_TM4C1294_TW.c@975@macro@__SYSTEM_CLOCK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__SYSTEM_CLOCK",
+    "location": {
+      "column": "9",
+      "line": "23",
       "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\system_TM4C1294_TW.c"
     },
     "name": "__SYSTEM_CLOCK",
@@ -26416,6 +27186,34 @@
     "scope": null
   },
   {
+    "ID": "c:@SystemCoreClock",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "SystemCoreClock",
+    "location": {
+      "column": "20",
+      "line": "36",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\system_TM4C1294_TW.c"
+    },
+    "name": "SystemCoreClock",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@SystemCoreClock",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "SystemCoreClock",
+    "location": {
+      "column": "20",
+      "line": "37",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\system_TM4C1294_TW.c"
+    },
+    "name": "SystemCoreClock",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@SystemCoreClockUpdate",
     "What": "Function",
     "defdec": "Def",
@@ -26430,6 +27228,34 @@
     "scope": null
   },
   {
+    "ID": "c:@F@SystemCoreClockUpdate",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SystemCoreClockUpdate(void)",
+    "location": {
+      "column": "6",
+      "line": "42",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\system_TM4C1294_TW.c"
+    },
+    "name": "SystemCoreClockUpdate",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SystemCoreClockUpdate",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SystemCoreClockUpdate(void)",
+    "location": {
+      "column": "6",
+      "line": "43",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\system_TM4C1294_TW.c"
+    },
+    "name": "SystemCoreClockUpdate",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@SystemInit",
     "What": "Function",
     "defdec": "Def",
@@ -26437,6 +27263,34 @@
     "location": {
       "column": "6",
       "line": "47",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\system_TM4C1294_TW.c"
+    },
+    "name": "SystemInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SystemInit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SystemInit(void)",
+    "location": {
+      "column": "6",
+      "line": "50",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\system_TM4C1294_TW.c"
+    },
+    "name": "SystemInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SystemInit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SystemInit(void)",
+    "location": {
+      "column": "6",
+      "line": "51",
       "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\system_TM4C1294_TW.c"
     },
     "name": "SystemInit",
@@ -26482,6 +27336,90 @@
       "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\system_TM4C1294.h"
     },
     "name": "SystemInit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SystemInit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void SystemInit(void)",
+    "location": {
+      "column": "13",
+      "line": "47",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\system_TM4C1294.h"
+    },
+    "name": "SystemInit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SystemInit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void SystemInit(void)",
+    "location": {
+      "column": "13",
+      "line": "47",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\system_TM4C1294.h"
+    },
+    "name": "SystemInit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SystemInit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void SystemInit(void)",
+    "location": {
+      "column": "13",
+      "line": "47",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\system_TM4C1294.h"
+    },
+    "name": "SystemInit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SystemCoreClockUpdate",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void SystemCoreClockUpdate(void)",
+    "location": {
+      "column": "13",
+      "line": "58",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\system_TM4C1294.h"
+    },
+    "name": "SystemCoreClockUpdate",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SystemCoreClockUpdate",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void SystemCoreClockUpdate(void)",
+    "location": {
+      "column": "13",
+      "line": "58",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\system_TM4C1294.h"
+    },
+    "name": "SystemCoreClockUpdate",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SystemCoreClockUpdate",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void SystemCoreClockUpdate(void)",
+    "location": {
+      "column": "13",
+      "line": "58",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_Bare_IAR9\\Projects\\Laboratorio_01\\src\\system_TM4C1294.h"
+    },
+    "name": "SystemCoreClockUpdate",
     "origin": "user_include",
     "scope": null
   },

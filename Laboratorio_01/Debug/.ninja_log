@@ -1,13 +1,14 @@
 # ninja log v5
-2	359	6462804324861121	D:/Users/Default/Área de Trabalho/Github/TM4C1294_Bare_IAR9/Projects/Laboratorio_01/Debug/Obj/startup_TM4C1294.o	898f2a3b6e0cf166
-0	334	6462804986485546	D:/Users/Default/Área de Trabalho/Github/TM4C1294_Bare_IAR9/Projects/Laboratorio_01/Debug/Obj/startup_TM4C1294.o	898f2a3b6e0cf166
-0	550	6462813309176448	D:/Users/Default/Área de Trabalho/Github/TM4C1294_Bare_IAR9/Projects/Laboratorio_01/Debug/Obj/startup_TM4C1294.o	eb1479f78025b0d7
-369	659	6462813314621595	D:/Users/Default/Área de Trabalho/Github/TM4C1294_Bare_IAR9/Projects/Laboratorio_01/Debug/Obj/Laboratorio_01.o	e28289eae4ab6bad
-33	766	6462813314781604	D:/Users/Default/Área de Trabalho/Github/TM4C1294_Bare_IAR9/Projects/Laboratorio_01/Debug/Obj/system_TM4C1294_TW.o	327171ea5984eb27
-781	991	6462813318486301	D:/Users/Default/Área de Trabalho/Github/TM4C1294_Bare_IAR9/Projects/Laboratorio_01/Debug/Exe/Laboratorio_01.out	b29a25f92f184343
-1	129	6462813429673091	D:/Users/Default/Área de Trabalho/Github/TM4C1294_Bare_IAR9/Projects/Laboratorio_01/Debug/Obj/system_TM4C1294_TW.o	327171ea5984eb27
-1	337	6462813463917123	D:/Users/Default/Área de Trabalho/Github/TM4C1294_Bare_IAR9/Projects/Laboratorio_01/Debug/Obj/startup_TM4C1294.o	eb1479f78025b0d7
-1	115	6462813512298071	D:/Users/Default/Área de Trabalho/Github/TM4C1294_Bare_IAR9/Projects/Laboratorio_01/Debug/Obj/Laboratorio_01.o	e28289eae4ab6bad
-2	222	6462838516842614	D:/Users/Default/Área de Trabalho/Github/TM4C1294_Bare_IAR9/Projects/Laboratorio_01/Debug/Obj/system_TM4C1294_TW.o	327171ea5984eb27
-40	238	6462838516892613	D:/Users/Default/Área de Trabalho/Github/TM4C1294_Bare_IAR9/Projects/Laboratorio_01/Debug/Obj/Laboratorio_01.o	e28289eae4ab6bad
-251	410	6462838518350924	D:/Users/Default/Área de Trabalho/Github/TM4C1294_Bare_IAR9/Projects/Laboratorio_01/Debug/Exe/Laboratorio_01.out	b29a25f92f184343
+2	222	6476501920813240	D:/Users/Default/Área de Trabalho/Github/TM4C1294_Bare_IAR9/Projects/Laboratorio_01/Debug/Obj/startup_TM4C1294.o	eb1479f78025b0d7
+2	153	6476549010633718	D:/Users/Default/Área de Trabalho/Github/TM4C1294_Bare_IAR9/Projects/Laboratorio_01/Debug/Obj/system_TM4C1294_TW.o	327171ea5984eb27
+403	495	6476501923538108	D:/Users/Default/Área de Trabalho/Github/TM4C1294_Bare_IAR9/Projects/Laboratorio_01/Debug/List/Laboratorio_01.map	63bd82335aee9b28
+7	129	6476549010413736	D:/Users/Default/Área de Trabalho/Github/TM4C1294_Bare_IAR9/Projects/Laboratorio_01/Debug/Obj/Laboratorio_01.o	e28289eae4ab6bad
+167	268	6476549011763736	D:/Users/Default/Área de Trabalho/Github/TM4C1294_Bare_IAR9/Projects/Laboratorio_01/Debug/Exe/Laboratorio_01.out	b29a25f92f184343
+2	114	6476550273238677	D:/Users/Default/Área de Trabalho/Github/TM4C1294_Bare_IAR9/Projects/Laboratorio_01/Debug/Obj/Laboratorio_01.o	e28289eae4ab6bad
+127	294	6476550275108679	D:/Users/Default/Área de Trabalho/Github/TM4C1294_Bare_IAR9/Projects/Laboratorio_01/Debug/Exe/Laboratorio_01.out	b29a25f92f184343
+2	189	6476554005578618	D:/Users/Default/Área de Trabalho/Github/TM4C1294_Bare_IAR9/Projects/Laboratorio_01/Debug/Obj/Laboratorio_01.o	e28289eae4ab6bad
+202	280	6476554006488658	D:/Users/Default/Área de Trabalho/Github/TM4C1294_Bare_IAR9/Projects/Laboratorio_01/Debug/Exe/Laboratorio_01.out	b29a25f92f184343
+2	113	6476556304310403	D:/Users/Default/Área de Trabalho/Github/TM4C1294_Bare_IAR9/Projects/Laboratorio_01/Debug/Obj/system_TM4C1294_TW.o	327171ea5984eb27
+125	202	6476556305230352	D:/Users/Default/Área de Trabalho/Github/TM4C1294_Bare_IAR9/Projects/Laboratorio_01/Debug/Exe/Laboratorio_01.out	b29a25f92f184343
+3	219	6476580781660188	D:/Users/Default/Área de Trabalho/Github/TM4C1294_Bare_IAR9/Projects/Laboratorio_01/Debug/Obj/system_TM4C1294_TW.o	327171ea5984eb27
+231	317	6476580782670205	D:/Users/Default/Área de Trabalho/Github/TM4C1294_Bare_IAR9/Projects/Laboratorio_01/Debug/Exe/Laboratorio_01.out	b29a25f92f184343
