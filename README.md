@@ -5,7 +5,7 @@ Professor: Hugo Vieira Neto
 Aluno: Miguel Ferreira Chagas Neto
 
 
-Projeto 1- Conclusões e Observações:
+Laboratorio 1- Conclusões e Observações:
 A imprecisão da temporização aumenta conforme o aumento no clock.
 
 Otimizações do compilador:
@@ -18,3 +18,6 @@ quando não se tem otimizações. 9 trocas em 10 segundos
 - High: Em alta otimização o compilador exclui o loop de espera, especulo que seja por não alterar nada que o compilador julgue como relevante, do fluxo do programa e se mantém em alterar o valor da variável LED_D4 e escrevela no GPIO, alterando assim pra uma função cujo o tempo de cada estado do led é cerca de 10 ciclos de clock, tornando a troca de estados imperceptiveis a olho nu.
 
 - 120mhz: Em 120mhz o led realizou cerca de 40 trocas em 10 segundos enquanto em 24mhz ele realizou cerca de 9, logo há uma diferença de cerca de 4,4444 vezes entre os tempos. O que indica uma perda de precisão com o aumento do clock e ajuda a reforçar que laços de espera em software não são a melhor alternativa por conta da quantidade de fatores que os podem influenciar.
+
+
+Laboratório 3- Concluido.
