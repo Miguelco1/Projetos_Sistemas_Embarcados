@@ -1,0 +1,6 @@
+# ninja log v5
+1	154	6478505790783318	D:/Users/Default/Área de Trabalho/Github/TM4C1294_Bare_IAR9/Projects/fsm_event/Debug/Obj/startup_TM4C1294.o	98ae8bf16869d8b2
+11	270	6478505791863316	D:/Users/Default/Área de Trabalho/Github/TM4C1294_Bare_IAR9/Projects/fsm_event/Debug/Obj/driverleds.o	151efa36db8e9b02
+18	304	6478505791913302	D:/Users/Default/Área de Trabalho/Github/TM4C1294_Bare_IAR9/Projects/fsm_event/Debug/Obj/system_TM4C1294_TW.o	d8c7b599d43805dd
+2	89	6478505934443534	D:/Users/Default/Área de Trabalho/Github/TM4C1294_Bare_IAR9/Projects/fsm_event/Debug/Obj/fsm_event.o	381b62cc0cfe9b9d
+103	191	6478505935493513	D:/Users/Default/Área de Trabalho/Github/TM4C1294_Bare_IAR9/Projects/fsm_event/Debug/Exe/fsm_event.out	da454e02959a3e91
