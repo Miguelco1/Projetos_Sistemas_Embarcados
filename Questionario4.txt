@@ -1,0 +1,10 @@
+Questionário 4:
+
+Pergunta:
+Explique de que forma o projeto arquitetural (estrutura estática) de um software embarcado a ser implementado no RTOS Keil RTX 5 está relacionado com o arquivo de configuração RTX_Config.h *
+Resposta:
+A estrutura estática do programa, que é a definida em tempo de compilação, deve ter seus objetos previamente estruturados no arquivo RTX_Config.h que define a quantidade possível de threads ativas no sistema, quantidade de semáforos  e mutexes possíveis, o tamanho padrão de suas respectivas memórias, a frequência dos ticks e do timeout, entre outros elementos importantes. 
+
+
+
+As tarefas implementadas com a função osDelay apresentam um jitter maior, máxima variação do período de ativação, uma vez que a ativação da contagem de ticks depende do fim do trabalho que a tarefa estava realizando. Enquanto tarefas implementadas com a função osDelayUntil apresentam um jitter menor uma vez que a ativação da contagem de ticks começa antes do trabalho da tarefa começar, incorporando assim as possíveis variações do tempo de trabalho realizado ao tempo predeterminado de espera. 

@@ -21,3 +21,5 @@ quando não se tem otimizações. 9 trocas em 10 segundos
 
 
 Laboratório 3- Concluido.
+
+Laboratório 4- Concluido.
