@@ -21934,6 +21934,20 @@
     "scope": null
   },
   {
+    "ID": "c:@F@GPIOJ_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void GPIOJ_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "13",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\prodcons\\src\\prodcons.c"
+    },
+    "name": "GPIOJ_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:prodcons.c@348@macro@USW1",
     "What": "MacroDef",
     "defdec": "Def",
@@ -21986,6 +22000,20 @@
       "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\prodcons\\src\\prodcons.c"
     },
     "name": "USW1",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:prodcons.c@373@F@GPIOJ_Handler@aux",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "aux",
+    "location": {
+      "column": "14",
+      "line": "14",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\prodcons\\src\\prodcons.c"
+    },
+    "name": "aux",
     "origin": "project_file",
     "scope": null
   },
@@ -22452,6 +22480,20 @@
     "scope": null
   },
   {
+    "ID": "c:@F@consumidor",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void consumidor(void *)",
+    "location": {
+      "column": "6",
+      "line": "33",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\prodcons\\src\\prodcons.c"
+    },
+    "name": "consumidor",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@produtor",
     "What": "Function",
     "defdec": "Def",
@@ -22571,6 +22613,20 @@
     "location": {
       "column": "6",
       "line": "47",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\prodcons\\src\\prodcons.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void main(void)",
+    "location": {
+      "column": "6",
+      "line": "50",
       "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\prodcons\\src\\prodcons.c"
     },
     "name": "main",
