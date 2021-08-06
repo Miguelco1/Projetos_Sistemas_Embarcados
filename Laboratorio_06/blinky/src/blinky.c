@@ -34,6 +34,7 @@
 typedef struct {                                // object data type
   uint8_t led;
   osThreadId_t* next;
+  osMessageQueueId_t* fila_mensagem_thread;
 } LED_NEXT;
  
 
@@ -43,7 +44,8 @@ osThreadId_t tid_phaseB;                /* Thread id of thread: phase_b      */
 osThreadId_t tid_phaseC;                /* Thread id of thread: phase_c      */
 osThreadId_t tid_phaseD;                /* Thread id of thread: phase_d      */
 osThreadId_t tid_control;                 /* Thread id of thread: clock        */
-osMessageQueueId_t fila_mensagem;
+osMessageQueueId_t fila_mensagem[4];
+
 
 osMutexId_t phases_mut_id;
 uint8_t button_1=0;
@@ -96,16 +98,9 @@ void Switch_Off (unsigned char led) {
   osMutexRelease(phases_mut_id);
 }
 
-void callback(void *arg){
+void callback(void *argument)
+{}
 
-  if (state==1)
-      state=0;
-
-  else
-     state=1;
-
-}
- // callback
 
 
 /*----------------------------------------------------------------------------
@@ -115,50 +110,57 @@ void thread_led(void *argument){
  LED_NEXT* aux=argument; 
  uint8_t led=aux->led;
  osThreadId_t *prox=aux->next;
+ osMessageQueueId_t* fila_m;
+ fila_m=aux->fila_mensagem_thread;
  int status,msg;
- osTimerId_t timer_id = osTimerNew(callback, osTimerOnce,NULL, NULL);
+ int tick,pisca=0;
  int intensidade=0;
- osThreadFlagsWait(0x0001, osFlagsWaitAny ,osWaitForever);    /* wait for an event flag 0x0001 */
+ osTimerId_t timer_id = osTimerNew(callback, osTimerOnce,NULL, NULL);
+
   while(1){
-    if(!osTimerIsRunning(timer_id))
-    {
-          if(intensidade == 0 && !osTimerIsRunning(timer_id))
-          {  
+        if (pisca==1 && !osTimerIsRunning(timer_id))
+        {
+            tick = osKernelGetTickCount();
             Switch_Off(led);
-            state=0;
-            osTimerStart(timer_id, 10);
+            osDelayUntil(tick + 500);
+            osTimerStart(timer_id, 500);
+        }
+        if(intensidade == 0)
+          {  
+            tick = osKernelGetTickCount();
+            Switch_Off(led);
+            osDelayUntil(tick + 10);
           }
-          else if (intensidade >=100 && !osTimerIsRunning(timer_id))
+          else if (intensidade >=100)
           {
+            tick = osKernelGetTickCount();
             Switch_On(led);
-            state=1;
-            osTimerStart(timer_id, 10);
+            osDelayUntil(tick + 10);
 
           }
           else{
-            if(state==0 && !osTimerIsRunning(timer_id))
-            {            
+           
+              tick = osKernelGetTickCount();
               Switch_On(led);
-              osTimerStart(timer_id, 10*intensidade/100);
-            }
-            else if(state==1 && !osTimerIsRunning(timer_id))           
-            {
+              osDelayUntil(tick + 10*intensidade/100);
               Switch_Off(led);
-              osTimerStart(timer_id, (10-(10*intensidade/100)));
+              osDelayUntil(tick + 10);
             }
-          }
-      }
+
+      
   
-      if (osMessageQueueGetCount(fila_mensagem))
+      if (osMessageQueueGetCount(*fila_m))
       {
-         status = osMessageQueueGet(fila_mensagem, &msg, NULL, 0U);   // wait for message
+         status = osMessageQueueGet(*fila_m, &msg, NULL, 0U);   // wait for message
           if (status == osOK) {
-            if (msg==1)
+            if (msg==3)
             {
-              Switch_Off(led);
-              osThreadFlagsSet(*prox, 0x0001);            /* set signal to thread 'thread' */
-              osThreadFlagsWait(0x0001, osFlagsWaitAny ,osWaitForever);    /* wait for an event flag 0x0001 */
-              state=0;
+              pisca=0;
+              
+            }
+            else if (msg==1)
+            {
+              pisca=1;
               
             }
             else if(msg==2)
@@ -185,35 +187,45 @@ void thread_led(void *argument){
  *---------------------------------------------------------------------------*/
 void app_main (void *argument) {
 
-  LED_NEXT led1 = {.led=LED1, .next= &tid_phaseB};
-  LED_NEXT led2 = {.led=LED2, .next= &tid_phaseC};
-  LED_NEXT led3 = {.led=LED3, .next= &tid_phaseD};
-  LED_NEXT led4 = {.led=LED4, .next= &tid_phaseA};
+  LED_NEXT led1 = {.led=LED1, .next= &tid_phaseB, .fila_mensagem_thread=&fila_mensagem[0]};
+  LED_NEXT led2 = {.led=LED2, .next= &tid_phaseC, .fila_mensagem_thread=&fila_mensagem[1]};
+  LED_NEXT led3 = {.led=LED3, .next= &tid_phaseD, .fila_mensagem_thread=&fila_mensagem[2]};
+  LED_NEXT led4 = {.led=LED4, .next= &tid_phaseA, .fila_mensagem_thread=&fila_mensagem[3]};
 
   tid_phaseA = osThreadNew(thread_led, &led1, NULL);
   tid_phaseB = osThreadNew(thread_led, &led2, NULL);
   tid_phaseC = osThreadNew(thread_led, &led3, NULL);
   tid_phaseD = osThreadNew(thread_led, &led4, NULL);
-  
-  osThreadFlagsSet(tid_phaseA, 0x0001);
+  int t_ativa=0;
+  int msg1=0;
+  int msg2=1;
+  if(osMessageQueueGetSpace(fila_mensagem[t_ativa]))
+    osMessageQueuePut(fila_mensagem[t_ativa], &msg2, 0U, 0U);
   while(1){
-    int msg=0;
+
     if (button_1==1)
     {
       button_1=0;
-      msg=1;
-      if(osMessageQueueGetSpace(fila_mensagem))
-       osMessageQueuePut(fila_mensagem, &msg, 0U, 0U);
+      msg1=3;
+      if(osMessageQueueGetSpace(fila_mensagem[t_ativa]))
+       osMessageQueuePut(fila_mensagem[t_ativa], &msg1, 0U, 0U);
+      msg2=1;
+      if(t_ativa>=3)
+        t_ativa=0;
+      else
+        t_ativa++;
+      if(osMessageQueueGetSpace(fila_mensagem[t_ativa]))
+       osMessageQueuePut(fila_mensagem[t_ativa], &msg2, 0U, 0U);
       
     }
     
     else if (button_2==1)
     {
       button_2=0;
-      msg=2;
+      msg1=2;
 
-      if(osMessageQueueGetSpace(fila_mensagem))
-       osMessageQueuePut(fila_mensagem, &msg, 0U, 0U);
+      if(osMessageQueueGetSpace(fila_mensagem[t_ativa]))
+       osMessageQueuePut(fila_mensagem[t_ativa], &msg1, 0U, 0U);
 
     }
     osThreadYield();
@@ -230,7 +242,10 @@ int main (void) {
 
   osKernelInitialize();                 // Initialize CMSIS-RTOS
   tid_control=osThreadNew(app_main, NULL, NULL);    // Create application main thread
-  fila_mensagem=osMessageQueueNew(16, sizeof(int),NULL);
+  fila_mensagem[0]=osMessageQueueNew(16, sizeof(int),NULL);
+  fila_mensagem[1]=osMessageQueueNew(16, sizeof(int),NULL);
+  fila_mensagem[2]=osMessageQueueNew(16, sizeof(int),NULL);
+  fila_mensagem[3]=osMessageQueueNew(16, sizeof(int),NULL);
   
   if (osKernelGetState() == osKernelReady) {
     osKernelStart();                    // Start thread execution

@@ -6371,184 +6371,326 @@
     },
     "members": [
       {
-        "ID": "c:@phases_mut_id",
-        "What": "VarDecl",
-        "defdec": "Dec",
-        "display": "phases_mut_id",
+        "ID": "c:blinky.c@S@blinky.c@1224",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "",
         "location": {
-          "column": "13",
+          "column": "9",
           "line": "34",
           "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
         },
-        "name": "phases_mut_id",
-        "origin": "project_file",
-        "scope": "_anonymous_blinky_c_34_9"
-      },
-      {
-        "ID": "c:@timer1_id",
-        "What": "VarDecl",
-        "defdec": "Dec",
-        "display": "timer1_id",
-        "location": {
-          "column": "13",
-          "line": "34",
-          "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
-        },
-        "name": "timer1_id",
-        "origin": "project_file",
-        "scope": "_anonymous_blinky_c_34_9"
-      },
-      {
-        "ID": "c:@Phases_Mutex_attr",
-        "What": "VarDecl",
-        "defdec": "Dec",
-        "display": "Phases_Mutex_attr",
-        "location": {
-          "column": "21",
-          "line": "34",
-          "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
-        },
-        "name": "Phases_Mutex_attr",
-        "origin": "project_file",
-        "scope": "_anonymous_blinky_c_34_9"
-      },
-      {
-        "ID": "c:@timer2_id",
-        "What": "VarDecl",
-        "defdec": "Dec",
-        "display": "timer2_id",
-        "location": {
-          "column": "23",
-          "line": "34",
-          "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
-        },
-        "name": "timer2_id",
-        "origin": "project_file",
-        "scope": "_anonymous_blinky_c_34_9"
-      },
-      {
-        "ID": "c:blinky.c@S@blinky.c@1224@FI@led",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "led",
-        "location": {
-          "column": "11",
-          "line": "35",
-          "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
-        },
-        "name": "led",
-        "origin": "project_file",
-        "scope": "_anonymous_blinky_c_34_9"
-      },
-      {
-        "ID": "c:@phases_mut_id",
-        "What": "VarDecl",
-        "defdec": "Dec",
-        "display": "phases_mut_id",
-        "location": {
-          "column": "13",
-          "line": "35",
-          "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
-        },
-        "name": "phases_mut_id",
-        "origin": "project_file",
-        "scope": "_anonymous_blinky_c_34_9"
-      },
-      {
-        "ID": "c:@tid_phaseA",
-        "What": "VarDecl",
-        "defdec": "Dec",
-        "display": "tid_phaseA",
-        "location": {
-          "column": "14",
-          "line": "35",
-          "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
-        },
-        "name": "tid_phaseA",
-        "origin": "project_file",
-        "scope": "_anonymous_blinky_c_34_9"
-      },
-      {
-        "ID": "c:@pwm",
-        "What": "VarDecl",
-        "defdec": "Dec",
-        "display": "pwm",
-        "location": {
-          "column": "5",
-          "line": "36",
-          "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
-        },
-        "name": "pwm",
-        "origin": "project_file",
-        "scope": "_anonymous_blinky_c_34_9"
-      },
-      {
-        "ID": "c:@F@callback_on",
-        "What": "FunctionDecl",
-        "defdec": "Def",
-        "display": "void callback_on(void *)",
-        "location": {
-          "column": "6",
-          "line": "36",
-          "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
-        },
-        "name": "callback_on",
-        "origin": "project_file",
-        "scope": "_anonymous_blinky_c_34_9"
-      },
-      {
-        "ID": "c:@pwm",
-        "What": "VarDecl",
-        "defdec": "Def",
-        "display": "pwm",
-        "location": {
-          "column": "7",
-          "line": "36",
-          "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
-        },
-        "name": "pwm",
-        "origin": "project_file",
-        "scope": "_anonymous_blinky_c_34_9"
-      },
-      {
-        "ID": "c:@tid_phaseB",
-        "What": "VarDecl",
-        "defdec": "Dec",
-        "display": "tid_phaseB",
-        "location": {
-          "column": "14",
-          "line": "36",
-          "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
-        },
-        "name": "tid_phaseB",
-        "origin": "project_file",
-        "scope": "_anonymous_blinky_c_34_9"
-      },
-      {
-        "ID": "c:blinky.c@S@blinky.c@1224@FI@next",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "next",
-        "location": {
-          "column": "16",
-          "line": "36",
-          "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
-        },
-        "name": "next",
-        "origin": "project_file",
-        "scope": "_anonymous_blinky_c_34_9"
-      },
-      {
-        "ID": "c:blinky.c@S@blinky.c@1224@FI@next",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "next",
-        "location": {
-          "column": "17",
-          "line": "36",
-          "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
-        },
-        "name": "next",
+        "members": [
+          {
+            "ID": "c:@phases_mut_id",
+            "What": "VarDecl",
+            "defdec": "Dec",
+            "display": "phases_mut_id",
+            "location": {
+              "column": "13",
+              "line": "34",
+              "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+            },
+            "name": "phases_mut_id",
+            "origin": "project_file",
+            "scope": "_anonymous_blinky_c_34_9::_anonymous_blinky_c_34_9"
+          },
+          {
+            "ID": "c:@timer1_id",
+            "What": "VarDecl",
+            "defdec": "Dec",
+            "display": "timer1_id",
+            "location": {
+              "column": "13",
+              "line": "34",
+              "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+            },
+            "name": "timer1_id",
+            "origin": "project_file",
+            "scope": "_anonymous_blinky_c_34_9::_anonymous_blinky_c_34_9"
+          },
+          {
+            "ID": "c:@Phases_Mutex_attr",
+            "What": "VarDecl",
+            "defdec": "Dec",
+            "display": "Phases_Mutex_attr",
+            "location": {
+              "column": "21",
+              "line": "34",
+              "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+            },
+            "name": "Phases_Mutex_attr",
+            "origin": "project_file",
+            "scope": "_anonymous_blinky_c_34_9::_anonymous_blinky_c_34_9"
+          },
+          {
+            "ID": "c:@timer2_id",
+            "What": "VarDecl",
+            "defdec": "Dec",
+            "display": "timer2_id",
+            "location": {
+              "column": "23",
+              "line": "34",
+              "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+            },
+            "name": "timer2_id",
+            "origin": "project_file",
+            "scope": "_anonymous_blinky_c_34_9::_anonymous_blinky_c_34_9"
+          },
+          {
+            "ID": "c:blinky.c@S@blinky.c@1224@FI@led",
+            "What": "FieldDecl",
+            "defdec": "Def",
+            "display": "led",
+            "location": {
+              "column": "11",
+              "line": "35",
+              "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+            },
+            "name": "led",
+            "origin": "project_file",
+            "scope": "_anonymous_blinky_c_34_9::_anonymous_blinky_c_34_9"
+          },
+          {
+            "ID": "c:@phases_mut_id",
+            "What": "VarDecl",
+            "defdec": "Dec",
+            "display": "phases_mut_id",
+            "location": {
+              "column": "13",
+              "line": "35",
+              "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+            },
+            "name": "phases_mut_id",
+            "origin": "project_file",
+            "scope": "_anonymous_blinky_c_34_9::_anonymous_blinky_c_34_9"
+          },
+          {
+            "ID": "c:@tid_phaseA",
+            "What": "VarDecl",
+            "defdec": "Dec",
+            "display": "tid_phaseA",
+            "location": {
+              "column": "14",
+              "line": "35",
+              "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+            },
+            "name": "tid_phaseA",
+            "origin": "project_file",
+            "scope": "_anonymous_blinky_c_34_9::_anonymous_blinky_c_34_9"
+          },
+          {
+            "ID": "c:@pwm",
+            "What": "VarDecl",
+            "defdec": "Dec",
+            "display": "pwm",
+            "location": {
+              "column": "5",
+              "line": "36",
+              "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+            },
+            "name": "pwm",
+            "origin": "project_file",
+            "scope": "_anonymous_blinky_c_34_9::_anonymous_blinky_c_34_9"
+          },
+          {
+            "ID": "c:@F@callback_on",
+            "What": "FunctionDecl",
+            "defdec": "Def",
+            "display": "void callback_on(void *)",
+            "location": {
+              "column": "6",
+              "line": "36",
+              "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+            },
+            "name": "callback_on",
+            "origin": "project_file",
+            "scope": "_anonymous_blinky_c_34_9::_anonymous_blinky_c_34_9"
+          },
+          {
+            "ID": "c:@pwm",
+            "What": "VarDecl",
+            "defdec": "Def",
+            "display": "pwm",
+            "location": {
+              "column": "7",
+              "line": "36",
+              "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+            },
+            "name": "pwm",
+            "origin": "project_file",
+            "scope": "_anonymous_blinky_c_34_9::_anonymous_blinky_c_34_9"
+          },
+          {
+            "ID": "c:@tid_phaseB",
+            "What": "VarDecl",
+            "defdec": "Dec",
+            "display": "tid_phaseB",
+            "location": {
+              "column": "14",
+              "line": "36",
+              "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+            },
+            "name": "tid_phaseB",
+            "origin": "project_file",
+            "scope": "_anonymous_blinky_c_34_9::_anonymous_blinky_c_34_9"
+          },
+          {
+            "ID": "c:blinky.c@S@blinky.c@1224@FI@next",
+            "What": "FieldDecl",
+            "defdec": "Def",
+            "display": "next",
+            "location": {
+              "column": "16",
+              "line": "36",
+              "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+            },
+            "name": "next",
+            "origin": "project_file",
+            "scope": "_anonymous_blinky_c_34_9::_anonymous_blinky_c_34_9"
+          },
+          {
+            "ID": "c:blinky.c@S@blinky.c@1224@FI@next",
+            "What": "FieldDecl",
+            "defdec": "Def",
+            "display": "next",
+            "location": {
+              "column": "17",
+              "line": "36",
+              "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+            },
+            "name": "next",
+            "origin": "project_file",
+            "scope": "_anonymous_blinky_c_34_9::_anonymous_blinky_c_34_9"
+          },
+          {
+            "ID": "c:blinky.c@T@LED_NEXT",
+            "What": "TypedefDecl",
+            "defdec": "Def",
+            "display": "struct (anonymous struct at D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c:34:9)",
+            "location": {
+              "column": "3",
+              "line": "37",
+              "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+            },
+            "name": "LED_NEXT",
+            "origin": "project_file",
+            "scope": "_anonymous_blinky_c_34_9::_anonymous_blinky_c_34_9"
+          },
+          {
+            "ID": "c:@pwm_choosed",
+            "What": "VarDecl",
+            "defdec": "Def",
+            "display": "pwm_choosed",
+            "location": {
+              "column": "5",
+              "line": "37",
+              "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+            },
+            "name": "pwm_choosed",
+            "origin": "project_file",
+            "scope": "_anonymous_blinky_c_34_9::_anonymous_blinky_c_34_9"
+          },
+          {
+            "ID": "c:@F@GPIOJ_Handler",
+            "What": "FunctionDecl",
+            "defdec": "Def",
+            "display": "void GPIOJ_Handler(void)",
+            "location": {
+              "column": "6",
+              "line": "37",
+              "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+            },
+            "name": "GPIOJ_Handler",
+            "origin": "project_file",
+            "scope": "_anonymous_blinky_c_34_9::_anonymous_blinky_c_34_9"
+          },
+          {
+            "ID": "c:@F@GPIOJ_Handler",
+            "What": "FunctionDecl",
+            "defdec": "Def",
+            "display": "void GPIOJ_Handler(void)",
+            "location": {
+              "column": "6",
+              "line": "37",
+              "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+            },
+            "name": "GPIOJ_Handler",
+            "origin": "project_file",
+            "scope": "_anonymous_blinky_c_34_9::_anonymous_blinky_c_34_9"
+          },
+          {
+            "ID": "c:@F@callback_off",
+            "What": "FunctionDecl",
+            "defdec": "Def",
+            "display": "void callback_off(void *)",
+            "location": {
+              "column": "6",
+              "line": "37",
+              "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+            },
+            "name": "callback_off",
+            "origin": "project_file",
+            "scope": "_anonymous_blinky_c_34_9::_anonymous_blinky_c_34_9"
+          },
+          {
+            "ID": "c:@pwm",
+            "What": "VarDecl",
+            "defdec": "Def",
+            "display": "pwm",
+            "location": {
+              "column": "7",
+              "line": "37",
+              "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+            },
+            "name": "pwm",
+            "origin": "project_file",
+            "scope": "_anonymous_blinky_c_34_9::_anonymous_blinky_c_34_9"
+          },
+          {
+            "ID": "c:@pwm_choosed",
+            "What": "VarDecl",
+            "defdec": "Def",
+            "display": "pwm_choosed",
+            "location": {
+              "column": "7",
+              "line": "37",
+              "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+            },
+            "name": "pwm_choosed",
+            "origin": "project_file",
+            "scope": "_anonymous_blinky_c_34_9::_anonymous_blinky_c_34_9"
+          },
+          {
+            "ID": "c:@tid_phaseC",
+            "What": "VarDecl",
+            "defdec": "Dec",
+            "display": "tid_phaseC",
+            "location": {
+              "column": "14",
+              "line": "37",
+              "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+            },
+            "name": "tid_phaseC",
+            "origin": "project_file",
+            "scope": "_anonymous_blinky_c_34_9::_anonymous_blinky_c_34_9"
+          },
+          {
+            "ID": "c:blinky.c@S@blinky.c@1224@FI@fila_mensagem_thread",
+            "What": "FieldDecl",
+            "defdec": "Def",
+            "display": "fila_mensagem_thread",
+            "location": {
+              "column": "23",
+              "line": "37",
+              "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+            },
+            "name": "fila_mensagem_thread",
+            "origin": "project_file",
+            "scope": "_anonymous_blinky_c_34_9::_anonymous_blinky_c_34_9"
+          }
+        ],
+        "name": "",
         "origin": "project_file",
         "scope": "_anonymous_blinky_c_34_9"
       }
@@ -6564,108 +6706,10 @@
     "display": "struct (anonymous struct at D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c:34:9)",
     "location": {
       "column": "3",
-      "line": "37",
+      "line": "38",
       "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
     },
     "name": "LED_NEXT",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@pwm_choosed",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "pwm_choosed",
-    "location": {
-      "column": "5",
-      "line": "37",
-      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
-    },
-    "name": "pwm_choosed",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@GPIOJ_Handler",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void GPIOJ_Handler(void)",
-    "location": {
-      "column": "6",
-      "line": "37",
-      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
-    },
-    "name": "GPIOJ_Handler",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@GPIOJ_Handler",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void GPIOJ_Handler(void)",
-    "location": {
-      "column": "6",
-      "line": "37",
-      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
-    },
-    "name": "GPIOJ_Handler",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@callback_off",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void callback_off(void *)",
-    "location": {
-      "column": "6",
-      "line": "37",
-      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
-    },
-    "name": "callback_off",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@pwm",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "pwm",
-    "location": {
-      "column": "7",
-      "line": "37",
-      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
-    },
-    "name": "pwm",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@pwm_choosed",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "pwm_choosed",
-    "location": {
-      "column": "7",
-      "line": "37",
-      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
-    },
-    "name": "pwm_choosed",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@tid_phaseC",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "tid_phaseC",
-    "location": {
-      "column": "14",
-      "line": "37",
-      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
-    },
-    "name": "tid_phaseC",
     "origin": "project_file",
     "scope": null
   },
@@ -6908,6 +6952,20 @@
     "scope": null
   },
   {
+    "ID": "c:@tid_phaseA",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "tid_phaseA",
+    "location": {
+      "column": "14",
+      "line": "42",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "tid_phaseA",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@pwm_choosed",
     "What": "Variable",
     "defdec": "Def",
@@ -6960,6 +7018,20 @@
       "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
     },
     "name": "button_2",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@tid_phaseB",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "tid_phaseB",
+    "location": {
+      "column": "14",
+      "line": "43",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "tid_phaseB",
     "origin": "project_file",
     "scope": null
   },
@@ -7090,6 +7162,20 @@
     "scope": null
   },
   {
+    "ID": "c:@tid_phaseC",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "tid_phaseC",
+    "location": {
+      "column": "14",
+      "line": "44",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "tid_phaseC",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@tid_phaseD",
     "What": "Variable",
     "defdec": "Dec",
@@ -7184,6 +7270,20 @@
       "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
     },
     "name": "intensidade",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@tid_phaseD",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "tid_phaseD",
+    "location": {
+      "column": "14",
+      "line": "45",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "tid_phaseD",
     "origin": "project_file",
     "scope": null
   },
@@ -7328,6 +7428,20 @@
     "scope": null
   },
   {
+    "ID": "c:@tid_control",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "tid_control",
+    "location": {
+      "column": "14",
+      "line": "46",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "tid_control",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@fila_mensagem",
     "What": "Variable",
     "defdec": "Dec",
@@ -7384,6 +7498,48 @@
     "scope": null
   },
   {
+    "ID": "c:@fila_mensagem",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "fila_mensagem",
+    "location": {
+      "column": "20",
+      "line": "47",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "fila_mensagem",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@fila_mensagem",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "fila_mensagem",
+    "location": {
+      "column": "20",
+      "line": "47",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "fila_mensagem",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@fila_mensagem0",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "fila_mensagem0",
+    "location": {
+      "column": "20",
+      "line": "47",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "fila_mensagem0",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@GPIOJ_Handler",
     "What": "Function",
     "defdec": "Def",
@@ -7422,6 +7578,20 @@
       "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
     },
     "name": "phases_mut_id",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@fila_mensagem1",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "fila_mensagem1",
+    "location": {
+      "column": "20",
+      "line": "48",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "fila_mensagem1",
     "origin": "project_file",
     "scope": null
   },
@@ -7468,6 +7638,20 @@
     "scope": null
   },
   {
+    "ID": "c:@fila_mensagem2",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "fila_mensagem2",
+    "location": {
+      "column": "20",
+      "line": "49",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "fila_mensagem2",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@callback_off",
     "What": "Function",
     "defdec": "Def",
@@ -7492,6 +7676,34 @@
       "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
     },
     "name": "button_2",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@phases_mut_id",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "phases_mut_id",
+    "location": {
+      "column": "13",
+      "line": "50",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "phases_mut_id",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@fila_mensagem3",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "fila_mensagem3",
+    "location": {
+      "column": "20",
+      "line": "50",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "fila_mensagem3",
     "origin": "project_file",
     "scope": null
   },
@@ -7534,6 +7746,48 @@
       "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
     },
     "name": "button_pressed",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@button_1",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "button_1",
+    "location": {
+      "column": "9",
+      "line": "51",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "button_1",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@fila_mensagem4",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "fila_mensagem4",
+    "location": {
+      "column": "20",
+      "line": "51",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "fila_mensagem4",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@button_2",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "button_2",
+    "location": {
+      "column": "9",
+      "line": "52",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "button_2",
     "origin": "project_file",
     "scope": null
   },
@@ -7636,6 +7890,62 @@
     "scope": null
   },
   {
+    "ID": "c:@button_pressed",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "button_pressed",
+    "location": {
+      "column": "9",
+      "line": "53",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "button_pressed",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@phases_mut_id",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "phases_mut_id",
+    "location": {
+      "column": "13",
+      "line": "53",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "phases_mut_id",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@button_1",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "button_1",
+    "location": {
+      "column": "9",
+      "line": "54",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "button_1",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@state",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "state",
+    "location": {
+      "column": "9",
+      "line": "54",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "state",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@Phases_Mutex_attr",
     "What": "Variable",
     "defdec": "Dec",
@@ -7646,6 +7956,20 @@
       "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
     },
     "name": "Phases_Mutex_attr",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@GPIOJ_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void GPIOJ_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "55",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "GPIOJ_Handler",
     "origin": "project_file",
     "scope": null
   },
@@ -7664,6 +7988,20 @@
     "scope": null
   },
   {
+    "ID": "c:@button_2",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "button_2",
+    "location": {
+      "column": "9",
+      "line": "55",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "button_2",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@Phases_Mutex_attr",
     "What": "Variable",
     "defdec": "Dec",
@@ -7674,6 +8012,20 @@
       "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
     },
     "name": "Phases_Mutex_attr",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@button_pressed",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "button_pressed",
+    "location": {
+      "column": "9",
+      "line": "56",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "button_pressed",
     "origin": "project_file",
     "scope": null
   },
@@ -7692,6 +8044,20 @@
     "scope": null
   },
   {
+    "ID": "c:@state",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "state",
+    "location": {
+      "column": "9",
+      "line": "57",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "state",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@Phases_Mutex_attr",
     "What": "Variable",
     "defdec": "Dec",
@@ -7702,6 +8068,20 @@
       "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
     },
     "name": "Phases_Mutex_attr",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@GPIOJ_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void GPIOJ_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "58",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "GPIOJ_Handler",
     "origin": "project_file",
     "scope": null
   },
@@ -8318,6 +8698,20 @@
       "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
     },
     "name": "Switch_Off",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@Phases_Mutex_attr",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "Phases_Mutex_attr",
+    "location": {
+      "column": "21",
+      "line": "76",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "Phases_Mutex_attr",
     "origin": "project_file",
     "scope": null
   },
@@ -8966,6 +9360,20 @@
     "scope": null
   },
   {
+    "ID": "c:@F@Switch_On",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Switch_On(unsigned char)",
+    "location": {
+      "column": "6",
+      "line": "89",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "Switch_On",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@Switch_Off",
     "What": "Function",
     "defdec": "Def",
@@ -9582,6 +9990,20 @@
     "scope": null
   },
   {
+    "ID": "c:@F@Switch_Off",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Switch_Off(unsigned char)",
+    "location": {
+      "column": "6",
+      "line": "98",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "Switch_Off",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:blinky.c@3449@F@phaseA@aux",
     "What": "Variable",
     "defdec": "Def",
@@ -9694,6 +10116,20 @@
     "scope": null
   },
   {
+    "ID": "c:@F@callback",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void callback(void *)",
+    "location": {
+      "column": "6",
+      "line": "99",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "callback",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@app_main",
     "What": "Function",
     "defdec": "Def",
@@ -9704,6 +10140,20 @@
       "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
     },
     "name": "app_main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@callback",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void callback(void *)",
+    "location": {
+      "column": "6",
+      "line": "101",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "callback",
     "origin": "project_file",
     "scope": null
   },
@@ -9788,6 +10238,20 @@
       "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
     },
     "name": "thread_led",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@callback",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void callback(void *)",
+    "location": {
+      "column": "6",
+      "line": "104",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "callback",
     "origin": "project_file",
     "scope": null
   },
@@ -10002,6 +10466,48 @@
     "scope": null
   },
   {
+    "ID": "c:@F@thread_led",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void thread_led(void *)",
+    "location": {
+      "column": "6",
+      "line": "105",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "thread_led",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@thread_led",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void thread_led(void *)",
+    "location": {
+      "column": "6",
+      "line": "105",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "thread_led",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@thread_led",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void thread_led(void *)",
+    "location": {
+      "column": "6",
+      "line": "105",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "thread_led",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@app_main",
     "What": "Function",
     "defdec": "Def",
@@ -10058,6 +10564,20 @@
     "scope": null
   },
   {
+    "ID": "c:blinky.c@3566@F@thread_led@aux",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "aux",
+    "location": {
+      "column": "12",
+      "line": "106",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "aux",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@app_main",
     "What": "Function",
     "defdec": "Def",
@@ -10086,6 +10606,20 @@
     "scope": null
   },
   {
+    "ID": "c:@F@thread_led",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void thread_led(void *)",
+    "location": {
+      "column": "6",
+      "line": "107",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "thread_led",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@app_main",
     "What": "Function",
     "defdec": "Def",
@@ -10177,6 +10711,62 @@
     "location": {
       "column": "6",
       "line": "108",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "thread_led",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@3601@F@thread_led@aux",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "aux",
+    "location": {
+      "column": "12",
+      "line": "108",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "aux",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@3617@F@thread_led@prox",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "prox",
+    "location": {
+      "column": "16",
+      "line": "108",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "prox",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@thread_led",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void thread_led(void *)",
+    "location": {
+      "column": "6",
+      "line": "109",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "thread_led",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@thread_led",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void thread_led(void *)",
+    "location": {
+      "column": "6",
+      "line": "109",
       "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
     },
     "name": "thread_led",
@@ -10212,6 +10802,48 @@
     "scope": null
   },
   {
+    "ID": "c:@F@thread_led",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void thread_led(void *)",
+    "location": {
+      "column": "6",
+      "line": "109",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "thread_led",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@3649@F@thread_led@status",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "status",
+    "location": {
+      "column": "6",
+      "line": "109",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "status",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@3649@F@thread_led@msg",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "msg",
+    "location": {
+      "column": "13",
+      "line": "109",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "msg",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@app_main",
     "What": "Function",
     "defdec": "Def",
@@ -10348,6 +10980,62 @@
       "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
     },
     "name": "thread_led",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@3667@F@thread_led@tick",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "tick",
+    "location": {
+      "column": "6",
+      "line": "110",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "tick",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@3667@F@thread_led@pisca",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "pisca",
+    "location": {
+      "column": "11",
+      "line": "110",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "pisca",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@3651@F@thread_led@aux",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "aux",
+    "location": {
+      "column": "12",
+      "line": "110",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "aux",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@3652@F@thread_led@prox",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "prox",
+    "location": {
+      "column": "16",
+      "line": "110",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "prox",
     "origin": "project_file",
     "scope": null
   },
@@ -10394,6 +11082,48 @@
     "scope": null
   },
   {
+    "ID": "c:blinky.c@3684@F@thread_led@status",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "status",
+    "location": {
+      "column": "6",
+      "line": "111",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "status",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@3679@F@thread_led@intensidade",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "intensidade",
+    "location": {
+      "column": "6",
+      "line": "111",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "intensidade",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@3687@F@thread_led@intensidade",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "intensidade",
+    "location": {
+      "column": "6",
+      "line": "111",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "intensidade",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:blinky.c@3593@F@thread_led@state",
     "What": "Variable",
     "defdec": "Def",
@@ -10423,6 +11153,20 @@
   },
   {
     "ID": "c:blinky.c@3590@F@thread_led@msg",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "msg",
+    "location": {
+      "column": "13",
+      "line": "111",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "msg",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@3684@F@thread_led@msg",
     "What": "Variable",
     "defdec": "Dec",
     "display": "msg",
@@ -10548,6 +11292,34 @@
     "scope": null
   },
   {
+    "ID": "c:@F@thread_led",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void thread_led(void *)",
+    "location": {
+      "column": "6",
+      "line": "112",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "thread_led",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@thread_led",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void thread_led(void *)",
+    "location": {
+      "column": "6",
+      "line": "112",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "thread_led",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:blinky.c@3664@F@thread_led@intensidade",
     "What": "Variable",
     "defdec": "Def",
@@ -10572,6 +11344,20 @@
       "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
     },
     "name": "intensidade",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@3702@F@thread_led@tick",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "tick",
+    "location": {
+      "column": "6",
+      "line": "112",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "tick",
     "origin": "project_file",
     "scope": null
   },
@@ -10628,6 +11414,20 @@
       "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
     },
     "name": "state",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@3702@F@thread_led@pisca",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "pisca",
+    "location": {
+      "column": "11",
+      "line": "112",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "pisca",
     "origin": "project_file",
     "scope": null
   },
@@ -10730,6 +11530,20 @@
     "scope": null
   },
   {
+    "ID": "c:blinky.c@3708@F@thread_led@timer_id",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "timer_id",
+    "location": {
+      "column": "14",
+      "line": "112",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "timer_id",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:blinky.c@3614@F@thread_led@timer1_id",
     "What": "Variable",
     "defdec": "Def",
@@ -10758,16 +11572,16 @@
     "scope": null
   },
   {
-    "ID": "c:@F@app_main",
-    "What": "Function",
+    "ID": "c:blinky.c@3702@F@thread_led@prox",
+    "What": "Variable",
     "defdec": "Def",
-    "display": "void app_main(void *)",
+    "display": "prox",
     "location": {
-      "column": "6",
-      "line": "113",
+      "column": "16",
+      "line": "112",
       "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
     },
-    "name": "app_main",
+    "name": "prox",
     "origin": "project_file",
     "scope": null
   },
@@ -10800,16 +11614,16 @@
     "scope": null
   },
   {
-    "ID": "c:@F@thread_led",
+    "ID": "c:@F@app_main",
     "What": "Function",
     "defdec": "Def",
-    "display": "void thread_led(void *)",
+    "display": "void app_main(void *)",
     "location": {
       "column": "6",
       "line": "113",
       "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
     },
-    "name": "thread_led",
+    "name": "app_main",
     "origin": "project_file",
     "scope": null
   },
@@ -10922,6 +11736,34 @@
       "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
     },
     "name": "thread_led",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@thread_led",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void thread_led(void *)",
+    "location": {
+      "column": "6",
+      "line": "113",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "thread_led",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@3734@F@thread_led@status",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "status",
+    "location": {
+      "column": "6",
+      "line": "113",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "status",
     "origin": "project_file",
     "scope": null
   },
@@ -11010,6 +11852,20 @@
     "scope": null
   },
   {
+    "ID": "c:blinky.c@3722@F@thread_led@intensidade",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "intensidade",
+    "location": {
+      "column": "6",
+      "line": "113",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "intensidade",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:blinky.c@3687@F@thread_led@intensidade",
     "What": "Variable",
     "defdec": "Def",
@@ -11034,6 +11890,48 @@
       "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
     },
     "name": "intensidade",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@3757@F@thread_led@aux",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "aux",
+    "location": {
+      "column": "12",
+      "line": "113",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "aux",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@3790@F@thread_led@aux",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "aux",
+    "location": {
+      "column": "12",
+      "line": "113",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "aux",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@3734@F@thread_led@msg",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "msg",
+    "location": {
+      "column": "13",
+      "line": "113",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "msg",
     "origin": "project_file",
     "scope": null
   },
@@ -11160,6 +12058,20 @@
       "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
     },
     "name": "timer_id",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@3734@F@thread_led@fila_m",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "fila_m",
+    "location": {
+      "column": "22",
+      "line": "113",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "fila_m",
     "origin": "project_file",
     "scope": null
   },
@@ -11374,6 +12286,48 @@
     "scope": null
   },
   {
+    "ID": "c:blinky.c@3752@F@thread_led@tick",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "tick",
+    "location": {
+      "column": "6",
+      "line": "114",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "tick",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@3752@F@thread_led@pisca",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "pisca",
+    "location": {
+      "column": "11",
+      "line": "114",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "pisca",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@3743@F@thread_led@timer_id",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "timer_id",
+    "location": {
+      "column": "14",
+      "line": "114",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "timer_id",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@app_main",
     "What": "Function",
     "defdec": "Def",
@@ -11384,6 +12338,34 @@
       "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
     },
     "name": "app_main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@3800@F@thread_led@status",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "status",
+    "location": {
+      "column": "6",
+      "line": "115",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "status",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@3772@F@thread_led@intensidade",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "intensidade",
+    "location": {
+      "column": "6",
+      "line": "115",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "intensidade",
     "origin": "project_file",
     "scope": null
   },
@@ -11416,16 +12398,44 @@
     "scope": null
   },
   {
-    "ID": "c:@F@main",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "int main(void)",
+    "ID": "c:blinky.c@3800@F@thread_led@msg",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "msg",
     "location": {
-      "column": "5",
-      "line": "116",
+      "column": "13",
+      "line": "115",
       "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
     },
-    "name": "main",
+    "name": "msg",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@3808@F@thread_led@prox",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "prox",
+    "location": {
+      "column": "16",
+      "line": "115",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "prox",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@3841@F@thread_led@prox",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "prox",
+    "location": {
+      "column": "16",
+      "line": "115",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "prox",
     "origin": "project_file",
     "scope": null
   },
@@ -11454,6 +12464,90 @@
       "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
     },
     "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
+      "line": "116",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@3873@F@thread_led@status",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "status",
+    "location": {
+      "column": "6",
+      "line": "116",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "status",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@3818@F@thread_led@tick",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "tick",
+    "location": {
+      "column": "6",
+      "line": "116",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "tick",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@3818@F@thread_led@pisca",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "pisca",
+    "location": {
+      "column": "11",
+      "line": "116",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "pisca",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@3873@F@thread_led@msg",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "msg",
+    "location": {
+      "column": "13",
+      "line": "116",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "msg",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@3793@F@thread_led@timer_id",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "timer_id",
+    "location": {
+      "column": "14",
+      "line": "116",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "timer_id",
     "origin": "project_file",
     "scope": null
   },
@@ -11482,6 +12576,20 @@
       "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
     },
     "name": "timer1_id",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@3840@F@thread_led@fila_m",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "fila_m",
+    "location": {
+      "column": "22",
+      "line": "116",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "fila_m",
     "origin": "project_file",
     "scope": null
   },
@@ -11538,6 +12646,48 @@
       "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
     },
     "name": "status",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@3838@F@thread_led@intensidade",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "intensidade",
+    "location": {
+      "column": "6",
+      "line": "117",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "intensidade",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@3891@F@thread_led@tick",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "tick",
+    "location": {
+      "column": "6",
+      "line": "117",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "tick",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@3891@F@thread_led@pisca",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "pisca",
+    "location": {
+      "column": "11",
+      "line": "117",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "pisca",
     "origin": "project_file",
     "scope": null
   },
@@ -11612,6 +12762,20 @@
     "scope": null
   },
   {
+    "ID": "c:blinky.c@3906@F@thread_led@status",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "status",
+    "location": {
+      "column": "6",
+      "line": "118",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "status",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:blinky.c@3753@F@thread_led@status",
     "What": "Variable",
     "defdec": "Def",
@@ -11626,6 +12790,34 @@
     "scope": null
   },
   {
+    "ID": "c:blinky.c@3911@F@thread_led@intensidade",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "intensidade",
+    "location": {
+      "column": "6",
+      "line": "118",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "intensidade",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@3906@F@thread_led@msg",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "msg",
+    "location": {
+      "column": "13",
+      "line": "118",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "msg",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:blinky.c@3753@F@thread_led@msg",
     "What": "Variable",
     "defdec": "Dec",
@@ -11636,6 +12828,20 @@
       "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
     },
     "name": "msg",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@3859@F@thread_led@timer_id",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "timer_id",
+    "location": {
+      "column": "14",
+      "line": "118",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "timer_id",
     "origin": "project_file",
     "scope": null
   },
@@ -11710,6 +12916,48 @@
     "scope": null
   },
   {
+    "ID": "c:blinky.c@3924@F@thread_led@tick",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "tick",
+    "location": {
+      "column": "6",
+      "line": "119",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "tick",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@3924@F@thread_led@pisca",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "pisca",
+    "location": {
+      "column": "11",
+      "line": "119",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "pisca",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@3932@F@thread_led@timer_id",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "timer_id",
+    "location": {
+      "column": "14",
+      "line": "119",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "timer_id",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:blinky.c@3771@F@thread_led@timer_id",
     "What": "Variable",
     "defdec": "Def",
@@ -11734,6 +12982,20 @@
       "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
     },
     "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@3944@F@thread_led@intensidade",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "intensidade",
+    "location": {
+      "column": "6",
+      "line": "120",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "intensidade",
     "origin": "project_file",
     "scope": null
   },
@@ -11776,6 +13038,20 @@
       "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
     },
     "name": "app_main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@3965@F@thread_led@timer_id",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "timer_id",
+    "location": {
+      "column": "14",
+      "line": "121",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "timer_id",
     "origin": "project_file",
     "scope": null
   },
@@ -14188,6 +15464,20 @@
     "scope": null
   },
   {
+    "ID": "c:@F@app_main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void app_main(void *)",
+    "location": {
+      "column": "6",
+      "line": "171",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "app_main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:blinky.c@5203@F@main@a",
     "What": "Variable",
     "defdec": "Def",
@@ -14244,6 +15534,20 @@
     "scope": null
   },
   {
+    "ID": "c:blinky.c@5505@F@app_main@led1",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "led1",
+    "location": {
+      "column": "12",
+      "line": "173",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "led1",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@main",
     "What": "Function",
     "defdec": "Def",
@@ -14258,6 +15562,20 @@
     "scope": null
   },
   {
+    "ID": "c:@F@app_main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void app_main(void *)",
+    "location": {
+      "column": "6",
+      "line": "174",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "app_main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:blinky.c@5225@F@main@a",
     "What": "Variable",
     "defdec": "Def",
@@ -14268,6 +15586,20 @@
       "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
     },
     "name": "a",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@5557@F@app_main@led2",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "led2",
+    "location": {
+      "column": "12",
+      "line": "174",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "led2",
     "origin": "project_file",
     "scope": null
   },
@@ -14342,6 +15674,20 @@
     "scope": null
   },
   {
+    "ID": "c:blinky.c@5609@F@app_main@led3",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "led3",
+    "location": {
+      "column": "12",
+      "line": "175",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "led3",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@main",
     "What": "Function",
     "defdec": "Def",
@@ -14398,6 +15744,34 @@
     "scope": null
   },
   {
+    "ID": "c:blinky.c@5466@F@app_main@led1",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "led1",
+    "location": {
+      "column": "12",
+      "line": "176",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "led1",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@5661@F@app_main@led4",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "led4",
+    "location": {
+      "column": "12",
+      "line": "176",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "led4",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@main",
     "What": "Function",
     "defdec": "Def",
@@ -14426,6 +15800,20 @@
     "scope": null
   },
   {
+    "ID": "c:blinky.c@5518@F@app_main@led2",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "led2",
+    "location": {
+      "column": "12",
+      "line": "177",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "led2",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@main",
     "What": "Function",
     "defdec": "Def",
@@ -14440,6 +15828,20 @@
     "scope": null
   },
   {
+    "ID": "c:blinky.c@5570@F@app_main@led3",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "led3",
+    "location": {
+      "column": "12",
+      "line": "178",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "led3",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@app_main",
     "What": "Function",
     "defdec": "Def",
@@ -14450,6 +15852,20 @@
       "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
     },
     "name": "app_main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@5622@F@app_main@led4",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "led4",
+    "location": {
+      "column": "12",
+      "line": "179",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "led4",
     "origin": "project_file",
     "scope": null
   },
@@ -14524,6 +15940,20 @@
     "scope": null
   },
   {
+    "ID": "c:@F@app_main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void app_main(void *)",
+    "location": {
+      "column": "6",
+      "line": "183",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "app_main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:blinky.c@5864@F@app_main@intensidade",
     "What": "Variable",
     "defdec": "Def",
@@ -14552,7 +15982,35 @@
     "scope": null
   },
   {
+    "ID": "c:@F@app_main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void app_main(void *)",
+    "location": {
+      "column": "6",
+      "line": "185",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "app_main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:blinky.c@5932@F@app_main@msg",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "msg",
+    "location": {
+      "column": "9",
+      "line": "185",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "msg",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@5991@F@app_main@msg",
     "What": "Variable",
     "defdec": "Def",
     "display": "msg",
@@ -14692,6 +16150,20 @@
     "scope": null
   },
   {
+    "ID": "c:blinky.c@5822@F@app_main@led2",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "led2",
+    "location": {
+      "column": "12",
+      "line": "186",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "led2",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@app_main",
     "What": "Function",
     "defdec": "Def",
@@ -14716,6 +16188,48 @@
       "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
     },
     "name": "app_main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@app_main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void app_main(void *)",
+    "location": {
+      "column": "6",
+      "line": "187",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "app_main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@5805@F@app_main@led1",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "led1",
+    "location": {
+      "column": "12",
+      "line": "187",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "led1",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@5804@F@app_main@led1",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "led1",
+    "location": {
+      "column": "12",
+      "line": "187",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "led1",
     "origin": "project_file",
     "scope": null
   },
@@ -14762,6 +16276,20 @@
     "scope": null
   },
   {
+    "ID": "c:blinky.c@5874@F@app_main@led3",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "led3",
+    "location": {
+      "column": "12",
+      "line": "187",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "led3",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@main",
     "What": "Function",
     "defdec": "Def",
@@ -14776,7 +16304,49 @@
     "scope": null
   },
   {
+    "ID": "c:@F@app_main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void app_main(void *)",
+    "location": {
+      "column": "6",
+      "line": "188",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "app_main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@app_main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void app_main(void *)",
+    "location": {
+      "column": "6",
+      "line": "188",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "app_main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:blinky.c@5810@F@app_main@msg",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "msg",
+    "location": {
+      "column": "9",
+      "line": "188",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "msg",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@5952@F@app_main@msg",
     "What": "Variable",
     "defdec": "Def",
     "display": "msg",
@@ -14800,6 +16370,34 @@
       "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
     },
     "name": "led1",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@5856@F@app_main@led2",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "led2",
+    "location": {
+      "column": "12",
+      "line": "188",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "led2",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@5857@F@app_main@led2",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "led2",
+    "location": {
+      "column": "12",
+      "line": "188",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "led2",
     "origin": "project_file",
     "scope": null
   },
@@ -14846,6 +16444,20 @@
     "scope": null
   },
   {
+    "ID": "c:blinky.c@5926@F@app_main@led4",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "led4",
+    "location": {
+      "column": "12",
+      "line": "188",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "led4",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@main",
     "What": "Function",
     "defdec": "Def",
@@ -14856,6 +16468,20 @@
       "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
     },
     "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@5854@F@app_main@led1",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "led1",
+    "location": {
+      "column": "12",
+      "line": "189",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "led1",
     "origin": "project_file",
     "scope": null
   },
@@ -14930,6 +16556,34 @@
     "scope": null
   },
   {
+    "ID": "c:blinky.c@5908@F@app_main@led3",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "led3",
+    "location": {
+      "column": "12",
+      "line": "189",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "led3",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@5909@F@app_main@led3",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "led3",
+    "location": {
+      "column": "12",
+      "line": "189",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "led3",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:blinky.c@6022@F@app_main@led4",
     "What": "Variable",
     "defdec": "Def",
@@ -14954,6 +16608,48 @@
       "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
     },
     "name": "app_main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@app_main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void app_main(void *)",
+    "location": {
+      "column": "6",
+      "line": "190",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "app_main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@5742@F@app_main@led1",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "led1",
+    "location": {
+      "column": "12",
+      "line": "190",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "led1",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@5947@F@app_main@led2",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "led2",
+    "location": {
+      "column": "12",
+      "line": "190",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "led2",
     "origin": "project_file",
     "scope": null
   },
@@ -15021,6 +16717,62 @@
     "location": {
       "column": "12",
       "line": "190",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "led3",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@5961@F@app_main@led4",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "led4",
+    "location": {
+      "column": "12",
+      "line": "190",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "led4",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@5960@F@app_main@led4",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "led4",
+    "location": {
+      "column": "12",
+      "line": "190",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "led4",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@5835@F@app_main@led2",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "led2",
+    "location": {
+      "column": "12",
+      "line": "191",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "led2",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@6040@F@app_main@led3",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "led3",
+    "location": {
+      "column": "12",
+      "line": "191",
       "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
     },
     "name": "led3",
@@ -15112,6 +16864,62 @@
     "scope": null
   },
   {
+    "ID": "c:@F@app_main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void app_main(void *)",
+    "location": {
+      "column": "6",
+      "line": "192",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "app_main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@app_main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void app_main(void *)",
+    "location": {
+      "column": "6",
+      "line": "192",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "app_main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@app_main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void app_main(void *)",
+    "location": {
+      "column": "6",
+      "line": "192",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "app_main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@5993@F@app_main@led1",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "led1",
+    "location": {
+      "column": "12",
+      "line": "192",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "led1",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:blinky.c@5962@F@app_main@led1",
     "What": "Variable",
     "defdec": "Def",
@@ -15122,6 +16930,34 @@
       "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
     },
     "name": "led1",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@5928@F@app_main@led3",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "led3",
+    "location": {
+      "column": "12",
+      "line": "192",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "led3",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@6133@F@app_main@led4",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "led4",
+    "location": {
+      "column": "12",
+      "line": "192",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "led4",
     "origin": "project_file",
     "scope": null
   },
@@ -15210,6 +17046,20 @@
     "scope": null
   },
   {
+    "ID": "c:blinky.c@6084@F@app_main@led2",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "led2",
+    "location": {
+      "column": "12",
+      "line": "193",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "led2",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:blinky.c@6013@F@app_main@led2",
     "What": "Variable",
     "defdec": "Def",
@@ -15220,6 +17070,48 @@
       "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
     },
     "name": "led2",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@6021@F@app_main@led4",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "led4",
+    "location": {
+      "column": "12",
+      "line": "193",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "led4",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@5879@F@app_main@led1",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "led1",
+    "location": {
+      "column": "12",
+      "line": "194",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "led1",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@5881@F@app_main@led1",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "led1",
+    "location": {
+      "column": "12",
+      "line": "194",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "led1",
     "origin": "project_file",
     "scope": null
   },
@@ -15252,6 +17144,20 @@
     "scope": null
   },
   {
+    "ID": "c:blinky.c@6175@F@app_main@led3",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "led3",
+    "location": {
+      "column": "12",
+      "line": "194",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "led3",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:blinky.c@6064@F@app_main@led3",
     "What": "Variable",
     "defdec": "Def",
@@ -15262,6 +17168,20 @@
       "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
     },
     "name": "led3",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@app_main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void app_main(void *)",
+    "location": {
+      "column": "6",
+      "line": "195",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "app_main",
     "origin": "project_file",
     "scope": null
   },
@@ -15294,6 +17214,48 @@
     "scope": null
   },
   {
+    "ID": "c:blinky.c@5972@F@app_main@led2",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "led2",
+    "location": {
+      "column": "12",
+      "line": "195",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "led2",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@5974@F@app_main@led2",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "led2",
+    "location": {
+      "column": "12",
+      "line": "195",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "led2",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@5973@F@app_main@led2",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "led2",
+    "location": {
+      "column": "12",
+      "line": "195",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "led2",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:blinky.c@5986@F@app_main@led3",
     "What": "Variable",
     "defdec": "Def",
@@ -15322,6 +17284,20 @@
     "scope": null
   },
   {
+    "ID": "c:blinky.c@6266@F@app_main@led4",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "led4",
+    "location": {
+      "column": "12",
+      "line": "195",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "led4",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:blinky.c@6115@F@app_main@led4",
     "What": "Variable",
     "defdec": "Def",
@@ -15346,6 +17322,34 @@
       "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
     },
     "name": "msg",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@6065@F@app_main@led3",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "led3",
+    "location": {
+      "column": "12",
+      "line": "196",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "led3",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@6067@F@app_main@led3",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "led3",
+    "location": {
+      "column": "12",
+      "line": "196",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "led3",
     "origin": "project_file",
     "scope": null
   },
@@ -15388,6 +17392,118 @@
       "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
     },
     "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@6256@F@app_main@msg",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "msg",
+    "location": {
+      "column": "9",
+      "line": "197",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "msg",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@5987@F@app_main@led1",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "led1",
+    "location": {
+      "column": "12",
+      "line": "197",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "led1",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@6158@F@app_main@led4",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "led4",
+    "location": {
+      "column": "12",
+      "line": "197",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "led4",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@6160@F@app_main@led4",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "led4",
+    "location": {
+      "column": "12",
+      "line": "197",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "led4",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@6157@F@app_main@led4",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "led4",
+    "location": {
+      "column": "12",
+      "line": "197",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "led4",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@6444@F@app_main@t_ativa",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "t_ativa",
+    "location": {
+      "column": "7",
+      "line": "198",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "t_ativa",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@6077@F@app_main@led2",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "led2",
+    "location": {
+      "column": "12",
+      "line": "198",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "led2",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@6332@F@app_main@t_ativa",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "t_ativa",
+    "location": {
+      "column": "7",
+      "line": "199",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "t_ativa",
     "origin": "project_file",
     "scope": null
   },
@@ -15462,6 +17578,62 @@
     "scope": null
   },
   {
+    "ID": "c:blinky.c@6291@F@app_main@msg",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "msg",
+    "location": {
+      "column": "9",
+      "line": "199",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "msg",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@6290@F@app_main@msg",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "msg",
+    "location": {
+      "column": "9",
+      "line": "199",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "msg",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@6167@F@app_main@led3",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "led3",
+    "location": {
+      "column": "12",
+      "line": "199",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "led3",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@6350@F@app_main@msg1",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "msg1",
+    "location": {
+      "column": "7",
+      "line": "200",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "msg1",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:blinky.c@6417@F@app_main@msg",
     "What": "Variable",
     "defdec": "Def",
@@ -15476,6 +17648,76 @@
     "scope": null
   },
   {
+    "ID": "c:blinky.c@6257@F@app_main@led4",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "led4",
+    "location": {
+      "column": "12",
+      "line": "200",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "led4",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@6391@F@app_main@msg1",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "msg1",
+    "location": {
+      "column": "7",
+      "line": "201",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "msg1",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@6365@F@app_main@msg2",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "msg2",
+    "location": {
+      "column": "7",
+      "line": "201",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "msg2",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@6527@F@app_main@msg",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "msg",
+    "location": {
+      "column": "9",
+      "line": "201",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "msg",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@6406@F@app_main@msg2",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "msg2",
+    "location": {
+      "column": "7",
+      "line": "202",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "msg2",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:blinky.c@6399@F@app_main@msg",
     "What": "Variable",
     "defdec": "Def",
@@ -15486,6 +17728,48 @@
       "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
     },
     "name": "msg",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@6469@F@app_main@t_ativa",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "t_ativa",
+    "location": {
+      "column": "7",
+      "line": "203",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "t_ativa",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@6471@F@app_main@t_ativa",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "t_ativa",
+    "location": {
+      "column": "7",
+      "line": "203",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "t_ativa",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@6467@F@app_main@t_ativa",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "t_ativa",
+    "location": {
+      "column": "7",
+      "line": "203",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "t_ativa",
     "origin": "project_file",
     "scope": null
   },
@@ -15518,6 +17802,118 @@
     "scope": null
   },
   {
+    "ID": "c:blinky.c@6635@F@app_main@msg",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "msg",
+    "location": {
+      "column": "9",
+      "line": "204",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "msg",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@6530@F@app_main@msg",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "msg",
+    "location": {
+      "column": "7",
+      "line": "205",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "msg",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@6530@F@app_main@msg1",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "msg1",
+    "location": {
+      "column": "7",
+      "line": "205",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "msg1",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@6565@F@app_main@t_ativa",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "t_ativa",
+    "location": {
+      "column": "7",
+      "line": "206",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "t_ativa",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@6545@F@app_main@msg2",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "msg2",
+    "location": {
+      "column": "7",
+      "line": "206",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "msg2",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@6543@F@app_main@msg",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "msg",
+    "location": {
+      "column": "9",
+      "line": "206",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "msg",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@6545@F@app_main@msg",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "msg",
+    "location": {
+      "column": "9",
+      "line": "206",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "msg",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@6541@F@app_main@msg",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "msg",
+    "location": {
+      "column": "9",
+      "line": "206",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "msg",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@main",
     "What": "Function",
     "defdec": "Def",
@@ -15539,6 +17935,48 @@
     "location": {
       "column": "5",
       "line": "208",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:blinky.c@6639@F@app_main@msg",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "msg",
+    "location": {
+      "column": "9",
+      "line": "209",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "msg",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
+      "line": "210",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
+      "line": "213",
       "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
     },
     "name": "main",
@@ -15594,6 +18032,34 @@
     "display": "int main(void)",
     "location": {
       "column": "5",
+      "line": "222",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
+      "line": "224",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
       "line": "225",
       "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
     },
@@ -15609,6 +18075,34 @@
     "location": {
       "column": "5",
       "line": "226",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
+      "line": "226",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
+      "line": "229",
       "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
     },
     "name": "main",
@@ -15665,6 +18159,90 @@
     "location": {
       "column": "5",
       "line": "233",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
+      "line": "236",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
+      "line": "237",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
+      "line": "238",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
+      "line": "239",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
+      "line": "240",
+      "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
+      "line": "241",
       "path": "D:\\Users\\Default\\\u00c1rea de Trabalho\\Github\\TM4C1294_RTOS_IAR9\\Projects\\blinky\\src\\blinky.c"
     },
     "name": "main",
