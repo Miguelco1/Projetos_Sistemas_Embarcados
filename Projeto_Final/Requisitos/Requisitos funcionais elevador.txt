@@ -1,3 +1,4 @@
+-- Requisitos Funcionais do Sistema de Elevador
 .O sistema deve realizar o controle de um conjunto de 3 elevadores;
 .O sistema deve possuir 3 elevadores;
 .O sistema deve possuir 15 andares;
@@ -25,3 +26,10 @@
 .Caso haja algo na frente da porta o sistema deve esperar que o obstaculo seja retirado antes de solicitar outro fechamento de porta;
 .O sistema deve realizar a comunicação com o simulador através da porta serial;
 .Caso um botão seja apertado ele deve permanecer aceso até sua ação correspondente ser concluida;
+
+-- Requisitos Não Funcionais do Sistema de Elevador
+.O sistema deve ser realizado com o kit EK-TM4C1924XL;
+.O sistema deve fazer uso da biblioteca Drivelib;
+.O sistema deve fazer uso da API CMSIS-RTOS;
+.O sistema deve ser programado em C;
+.A IDE utilizada deve ser a IAR arm;
