@@ -1,0 +1,27 @@
+.O sistema deve realizar o controle de um conjunto de 3 elevadores;
+.O sistema deve possuir 3 elevadores;
+.O sistema deve possuir 15 andares;
+.O sistema deve possuir 2 botões para chamada de elevador, para cada um deles, em cada andar;
+	- 1 botão caso o usuario queira subir de andar;
+	- 1 botão caso o usuario queira descer de andar;
+.O sistema deve possuir 17 botões dentro de cada elevador;
+	- 1 - 15 botões com os andares desejados;
+	- 1 botão para abrir a porta do elevador;
+	- 1 botão para fechar a porta do elevador;
+.Ao apertar o botão de abertura de porta o sistema deve verificar se o elevador está parado em um andar e se a porta está fechada, para então abrir a porta;
+.Os elevadores não devem se mover com a porta aberta.
+.Ao apertar o botão de fechamento de porta o sistema deve verificar se o elevador está parado em um andar e se a porta está aberta, para então solicitar o fechamento da porta;
+.O elevador chamado deve ser independente de qual dos 3 sets de botão foi apertado.
+.O sistema deve, ao ser apertado um dos botões de chamada do elevador, chamar um elevador ao andar do botão, sendo suas prioridades de chamada:
+	1. Há um elevador parado no mesmo andar do botão;
+	2. Há um elevador em movimento ao andar do botão, e a direção de movimento do elevador é a mesma que a do botão;
+	3. O elevador parado mais perto do botão;
+	4. Em caso de empate o critério de prioridade é respectivamente a ordem de identificação direita,central,esquerda;
+.Após chamado o elevador selecionado deve subir, ou descer, em direção ao andar indicado;
+.Ao detectar que o elevador está na posiçao certa em relação ao botão do andar selecionado o elevador deve parar.
+.Ao chegar no andar do botão apertado o elevador deve abrir a porta e esperar 20 segundos sem aceitar nova solicitações de chamada, a não ser que o botão de fechamento de porta tenha sido apertado;
+.O sistema não deve fechar a porta do elevador caso haja algo em seu caminho;
+.Caso haja algo no vão da porta o fechamento deve ser cancelado;
+.Caso haja algo na frente da porta o sistema deve esperar que o obstaculo seja retirado antes de solicitar outro fechamento de porta;
+.O sistema deve realizar a comunicação com o simulador através da porta serial;
+.Caso um botão seja apertado ele deve permanecer aceso até sua ação correspondente ser concluida;
