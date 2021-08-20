@@ -1,0 +1,6 @@
+1 thread controladora de botões(externos) dos andares
+3 threads da msm função dos outros elevadores
+3 vetores de 15 posições com 3 variaveis que grava a posição atual de cada elevador, 3 contadores(semaforos) de solicitações de subida e  3 contadores(semaforos) de solicitações de descida
+Ao apertar um botão setar a posição do botão no vetor para 1 e quando a solicitação for atendida setar para 0
+1 variavel de direção do elevador para cada um dos elevadores
+Fila de mensagem - solicitações pendentes 
