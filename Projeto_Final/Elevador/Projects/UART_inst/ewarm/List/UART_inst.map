@@ -1,0 +1,660 @@
+###############################################################################
+#
+# IAR ELF Linker V9.10.2.313/W64 for ARM                  21/Aug/2021  12:23:12
+# Copyright 2007-2021 IAR Systems AB.
+#
+#    Output file  =
+#        D:\Users\Default\햞ea de
+#        Trabalho\Github\Projetos_Sistemas_Embarcados\Projeto_Final\Elevador\Projects\UART_inst\ewarm\Exe\UART_inst.out
+#    Map file     =
+#        D:\Users\Default\햞ea de
+#        Trabalho\Github\Projetos_Sistemas_Embarcados\Projeto_Final\Elevador\Projects\UART_inst\ewarm\List\UART_inst.map
+#    Command line =
+#        -f "D:\Users\Default\햞ea de
+#        Trabalho\Github\Projetos_Sistemas_Embarcados\Projeto_Final\Elevador\Projects\UART_inst\ewarm\Exe\UART_inst.out.rsp"
+#        ("D:\Users\Default\햞ea de
+#        Trabalho\Github\Projetos_Sistemas_Embarcados\Projeto_Final\Elevador\TivaWare_C_Series-2.1.4.178\driverlib\ewarm\Exe\driverlib.a"
+#        "D:\Users\Default\햞ea de
+#        Trabalho\Github\Projetos_Sistemas_Embarcados\Projeto_Final\Elevador\CMSIS-5.6.0\CMSIS\RTOS2\RTX\Library\IAR\IDE\CM4F\Exe\RTX_CM.a"
+#        "D:\Users\Default\햞ea de
+#        Trabalho\Github\Projetos_Sistemas_Embarcados\Projeto_Final\Elevador\Projects\UART_inst\ewarm\Obj\RTX_Config.o"
+#        "D:\Users\Default\햞ea de
+#        Trabalho\Github\Projetos_Sistemas_Embarcados\Projeto_Final\Elevador\Projects\UART_inst\ewarm\Obj\rtx_lib.o"
+#        "D:\Users\Default\햞ea de
+#        Trabalho\Github\Projetos_Sistemas_Embarcados\Projeto_Final\Elevador\Projects\UART_inst\ewarm\Obj\startup_TM4C1294.o"
+#        "D:\Users\Default\햞ea de
+#        Trabalho\Github\Projetos_Sistemas_Embarcados\Projeto_Final\Elevador\Projects\UART_inst\ewarm\Obj\system_TM4C1294_TW.o"
+#        "D:\Users\Default\햞ea de
+#        Trabalho\Github\Projetos_Sistemas_Embarcados\Projeto_Final\Elevador\Projects\UART_inst\ewarm\Obj\UART_inst.o"
+#        "D:\Users\Default\햞ea de
+#        Trabalho\Github\Projetos_Sistemas_Embarcados\Projeto_Final\Elevador\Projects\UART_inst\ewarm\Obj\uartstdio.o"
+#        --no_out_extension -o "D:\Users\Default\햞ea de
+#        Trabalho\Github\Projetos_Sistemas_Embarcados\Projeto_Final\Elevador\Projects\UART_inst\ewarm\Exe\UART_inst.out"
+#        --map "D:\Users\Default\햞ea de
+#        Trabalho\Github\Projetos_Sistemas_Embarcados\Projeto_Final\Elevador\Projects\UART_inst\ewarm\List\UART_inst.map"
+#        --config "C:\Program Files\IAR Systems\Embedded Workbench
+#        9.0\arm\config\linker\TexasInstruments\TM4C1294NC.icf" --semihosting
+#        --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because some modules are built with
+size limitations (and not runtime checking), and --advanced_heap
+was not specified.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x0 { ro section .intvec };
+"P1":  place in [from 0x0 to 0xf'ffff] { ro };
+define block CSTACK with size = 32K, alignment = 8 { };
+define block HEAP with size = 64K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2003'ffff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section               Kind         Address    Size  Object
+  -------               ----         -------    ----  ------
+"A0":                                          0x3c0
+  .intvec               ro code          0x0   0x3c0  startup_TM4C1294.o [1]
+                                     - 0x3c0   0x3c0
+
+"P1":                                         0x359d
+  .text                 ro code        0x3c0   0x76c  UART_inst.o [1]
+  .text                 ro code        0xb2c   0x2ac  sysctl.o [4]
+  .text                 ro code        0xdd8   0x5f8  uartstdio.o [1]
+  .text                 ro code       0x13d0   0x18c  gpio.o [4]
+  .text                 ro code       0x155c   0x34c  rtx_mutex.o [2]
+  .text                 ro code       0x18a8   0x6f0  rtx_msgqueue.o [2]
+  .text                 ro code       0x1f98    0x64  rtx_delay.o [2]
+  .text                 ro code       0x1ffc   0x760  rtx_thread.o [2]
+  .text                 ro code       0x275c   0x294  rtx_kernel.o [2]
+  .text                 ro code       0x29f0    0xf0  interrupt.o [4]
+  .text                 ro code       0x2ae0   0x112  uart.o [4]
+  .text                 ro code       0x2bf2     0x2  rtx_evr.o [2]
+  .text                 ro code       0x2bf4     0x2  rtx_evr.o [2]
+  .text                 ro code       0x2bf6     0x2  rtx_evr.o [2]
+  .text                 ro code       0x2bf8    0xe6  rtx_mempool.o [2]
+  .text                 ro code       0x2cde    0x84  rtx_memory.o [2]
+  .text                 ro code       0x2d62     0x2  rtx_evr.o [2]
+  .text                 ro code       0x2d64     0x2  rtx_evr.o [2]
+  .text                 ro code       0x2d66     0x2  rtx_evr.o [2]
+  .text                 ro code       0x2d68     0x2  rtx_evr.o [2]
+  .text                 ro code       0x2d6a     0x2  rtx_evr.o [2]
+  .text                 ro code       0x2d6c     0x2  rtx_evr.o [2]
+  .text                 ro code       0x2d6e     0x2  rtx_evr.o [2]
+  .text                 ro code       0x2d70    0xa6  ABImemcpy.o [5]
+  .text                 ro code       0x2e16     0x2  rtx_evr.o [2]
+  .text                 ro code       0x2e18     0x2  rtx_evr.o [2]
+  .text                 ro code       0x2e1a     0x2  rtx_evr.o [2]
+  .text                 ro code       0x2e1c    0x4a  rtx_memory.o [2]
+  .text                 ro code       0x2e66    0x3a  packbits_init_single.o [5]
+  .text                 ro code       0x2ea0     0x6  ABImemclr.o [5]
+  .text                 ro code       0x2ea6     0x2  rtx_evr.o [2]
+  .text                 ro code       0x2ea8     0x2  rtx_evr.o [2]
+  .text                 ro code       0x2eaa     0x2  rtx_evr.o [2]
+  .text                 ro code       0x2eac     0x2  rtx_evr.o [2]
+  .text                 ro code       0x2eae     0x2  rtx_evr.o [2]
+  .text                 ro code       0x2eb0     0x2  rtx_evr.o [2]
+  .text                 ro code       0x2eb2     0x2  rtx_evr.o [2]
+  .text                 ro code       0x2eb4     0x2  rtx_evr.o [2]
+  .text                 ro code       0x2eb6     0x2  rtx_evr.o [2]
+  .text                 ro code       0x2eb8     0x2  rtx_evr.o [2]
+  .text                 ro code       0x2eba     0x2  rtx_evr.o [2]
+  .text                 ro code       0x2ebc   0x174  rtx_system.o [2]
+  .text                 ro code       0x3030     0x2  rtx_evr.o [2]
+  .text                 ro code       0x3032     0x2  rtx_evr.o [2]
+  .text                 ro code       0x3034     0x2  rtx_evr.o [2]
+  .text                 ro code       0x3036     0x2  rtx_evr.o [2]
+  .text                 ro code       0x3038     0x2  rtx_evr.o [2]
+  .text                 ro code       0x303a     0x2  rtx_evr.o [2]
+  .text                 ro code       0x303c     0x2  rtx_evr.o [2]
+  .text                 ro code       0x303e     0x2  rtx_evr.o [2]
+  .text                 ro code       0x3040     0x2  rtx_evr.o [2]
+  .text                 ro code       0x3042     0x2  rtx_evr.o [2]
+  .text                 ro code       0x3044     0x2  rtx_evr.o [2]
+  .text                 ro code       0x3046     0x2  rtx_evr.o [2]
+  .text                 ro code       0x3048    0x28  rtx_thread.o [2]
+  .text                 ro code       0x3070     0x2  rtx_evr.o [2]
+  .text                 ro code       0x3072     0x2  rtx_evr.o [2]
+  .text                 ro code       0x3074     0x2  rtx_evr.o [2]
+  .text                 ro code       0x3076     0x2  rtx_evr.o [2]
+  .text                 ro code       0x3078     0x6  ABImemclr4.o [5]
+  .text                 ro code       0x307e     0x2  rtx_evr.o [2]
+  .text                 ro code       0x3080     0x2  rtx_evr.o [2]
+  .text                 ro code       0x3082     0x2  rtx_evr.o [2]
+  .text                 ro code       0x3084     0x2  rtx_evr.o [2]
+  .text                 ro code       0x3086     0x2  rtx_evr.o [2]
+  .text                 ro code       0x3088     0x2  rtx_evr.o [2]
+  .text                 ro code       0x308a    0x44  rtx_memory.o [2]
+  .text                 ro code       0x30ce     0x2  rtx_evr.o [2]
+  .text                 ro code       0x30d0     0x2  rtx_evr.o [2]
+  .text                 ro code       0x30d2     0x2  RTX_Config.o [1]
+  .text                 ro code       0x30d4    0x40  os_systick.o [2]
+  .text                 ro code       0x3114     0x6  os_systick.o [2]
+  .text                 ro code       0x311a     0x2  startup_TM4C1294.o [1]
+  .text                 ro code       0x311c    0x2c  os_systick.o [2]
+  .text                 ro code       0x3148     0x2  rtx_evr.o [2]
+  .text                 ro code       0x314a     0x2  rtx_lib.o [1]
+  .text                 ro code       0x314c     0x2  rtx_evr.o [2]
+  .text                 ro code       0x314e     0x2  rtx_evr.o [2]
+  .text                 ro code       0x3150    0x10  cpu.o [4]
+  .text                 ro code       0x3160     0x2  rtx_evr.o [2]
+  .text                 ro code       0x3162     0x2  rtx_evr.o [2]
+  .text                 ro code       0x3164     0x2  rtx_evr.o [2]
+  .text                 ro code       0x3166     0x2  rtx_evr.o [2]
+  .text                 ro code       0x3168     0x2  rtx_evr.o [2]
+  .text                 ro code       0x316c    0x5e  ABImemset.o [5]
+  .text                 ro code       0x31cc     0xc  os_systick.o [2]
+  .text                 ro code       0x31d8    0x20  RTX_Config.o [1]
+  .text                 ro code       0x31f8    0x32  ABImemset48.o [5]
+  .text                 ro code       0x322a     0x2  rtx_evr.o [2]
+  .rodata               const         0x322c   0x1b0  sysctl.o [4]
+  .text                 ro code       0x33dc    0xc4  irq_cm4f.o [2]
+  .rodata               const         0x34a0    0x90  gpio.o [4]
+  .text                 ro code       0x3530    0x90  rtx_timer.o [2]
+  .rodata               const         0x35c0    0x6c  sysctl.o [4]
+  .rodata               const         0x362c    0x68  rtx_lib.o [1]
+  .text                 ro code       0x3694    0x44  rtx_timer.o [2]
+  .text                 ro code       0x36d8     0x2  rtx_evr.o [2]
+  .text                 ro code       0x36da    0x38  zero_init3.o [5]
+  .rodata               const         0x3714    0x30  sysctl.o [4]
+  .text                 ro code       0x3744    0x30  system_TM4C1294_TW.o [1]
+  .text                 ro code       0x3774    0x28  data_init.o [5]
+  .rodata               const         0x379c    0x24  rtx_lib.o [1]
+  .rodata               const         0x37c0    0x24  rtx_lib.o [1]
+  .iar.init_table       const         0x37e4    0x20  - Linker created -
+  .text                 ro code       0x3804    0x1e  cmain.o [5]
+  .text                 ro code       0x3822     0x4  low_level_init.o [3]
+  .text                 ro code       0x3826     0x4  exit.o [3]
+  .text                 ro code       0x382c     0xa  cexit.o [5]
+  .text                 ro code       0x3838    0x14  exit.o [6]
+  .text                 ro code       0x384c    0x1c  cstartup_M.o [5]
+  .text                 ro code       0x3868    0x14  startup_TM4C1294.o [1]
+  .rodata               const         0x387c    0x18  rtx_lib.o [1]
+  .rodata               const         0x3894    0x14  uartstdio.o [1]
+  .rodata               const         0x38a8    0x10  rtx_lib.o [1]
+  .rodata               const         0x38b8     0xc  rtx_lib.o [1]
+  .rodata               const         0x38c4     0xc  uartstdio.o [1]
+  .rodata               const         0x38d0     0xc  uartstdio.o [1]
+  .rodata               const         0x38dc     0xc  uartstdio.o [1]
+  .rodata               const         0x38e8     0x8  UART_inst.o [1]
+  .rodata               const         0x38f0     0x8  UART_inst.o [1]
+  .rodata               const         0x38f8     0x8  UART_inst.o [1]
+  .rodata               const         0x3900     0x8  UART_inst.o [1]
+  .rodata               const         0x3908     0x8  UART_inst.o [1]
+  .rodata               const         0x3910     0x8  UART_inst.o [1]
+  .rodata               const         0x3918     0x8  UART_inst.o [1]
+  .rodata               const         0x3920     0x8  UART_inst.o [1]
+  .rodata               const         0x3928     0x8  UART_inst.o [1]
+  .rodata               const         0x3930     0x8  UART_inst.o [1]
+  .rodata               const         0x3938     0x8  UART_inst.o [1]
+  .rodata               const         0x3940     0x8  uartstdio.o [1]
+  .rodata               const         0x3948     0x4  rtx_lib.o [1]
+  .rodata               const         0x394c     0x4  uartstdio.o [1]
+  .rodata               const         0x3950     0x0  zero_init3.o [5]
+  .rodata               const         0x3950     0x0  packbits_init_single.o [5]
+  Initializer bytes     const         0x3950     0xd  <for P2-1>
+                                    - 0x395d  0x359d
+
+"P2", part 1 of 3:                              0xa4
+  P2-1                           0x2000'0000    0xa4  <Init block>
+    .data.os            inited   0x2000'0000    0xa4  rtx_kernel.o [2]
+                               - 0x2000'00a4    0xa4
+
+"P2", part 2 of 3:                            0x180c
+  .bss.os               zero     0x2000'00a8  0x1000  rtx_lib.o [1]
+  .bss                  zero     0x2000'10a8   0x400  uartstdio.o [1]
+  .bss.os.thread.stack  zero     0x2000'14a8   0x100  rtx_lib.o [1]
+  .bss.os.thread.stack  zero     0x2000'15a8   0x100  rtx_lib.o [1]
+  .bss                  zero     0x2000'16a8    0x80  uartstdio.o [1]
+  .bss.os.msgqueue.mem  zero     0x2000'1728    0x50  rtx_lib.o [1]
+  .bss.os.thread.cb     zero     0x2000'1778    0x44  rtx_lib.o [1]
+  .bss.os.thread.cb     zero     0x2000'17bc    0x44  rtx_lib.o [1]
+  .bss.os               zero     0x2000'1800    0x40  rtx_lib.o [1]
+  .bss.os.msgqueue.cb   zero     0x2000'1840    0x34  rtx_lib.o [1]
+  .bss                  zero     0x2000'1874     0x4  UART_inst.o [1]
+  .bss                  zero     0x2000'1878     0x4  UART_inst.o [1]
+  .bss                  zero     0x2000'187c     0x4  UART_inst.o [1]
+  .bss                  zero     0x2000'1880     0x4  UART_inst.o [1]
+  .bss                  zero     0x2000'1884     0x4  UART_inst.o [1]
+  .bss                  zero     0x2000'1888     0x4  UART_inst.o [1]
+  .bss                  zero     0x2000'188c     0x4  UART_inst.o [1]
+  .bss                  zero     0x2000'1890     0x4  UART_inst.o [1]
+  .bss                  zero     0x2000'1894     0x4  uartstdio.o [1]
+  .bss                  zero     0x2000'1898     0x4  uartstdio.o [1]
+  .bss                  zero     0x2000'189c     0x4  uartstdio.o [1]
+  .bss                  zero     0x2000'18a0     0x4  uartstdio.o [1]
+  .bss                  zero     0x2000'18a4     0x4  uartstdio.o [1]
+  .bss                  zero     0x2000'18a8     0x4  uartstdio.o [1]
+  .bss                  zero     0x2000'18ac     0x1  uartstdio.o [1]
+  .bss                  zero     0x2000'18ad     0x1  uartstdio.o [1]
+  .bss                  zero     0x2000'18ae     0x1  os_systick.o [2]
+                               - 0x2000'18af  0x180b
+
+"P2", part 3 of 3:                            0x8008
+  .noinit               uninit   0x2000'18b0     0x4  system_TM4C1294_TW.o [1]
+  CSTACK                         0x2000'18b8  0x8000  <Block>
+    CSTACK              uninit   0x2000'18b8  0x8000  <Block tail>
+                               - 0x2000'98b8  0x8008
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+       0x395d     0xf'ffff  0xf'c6a3
+  0x2000'98b8  0x2003'ffff  0x3'6748
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x1807:
+          0x2000'00a8  0x1807
+
+Copy/packbits (__iar_packbits_init_single3)
+    1 source range, total size 0xd (7% of destination):
+               0x3950     0xd
+    1 destination range, total size 0xa4:
+          0x2000'0000    0xa4
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+command line/config:
+    -------------------------------------------------
+    Total:
+
+D:\Users\Default\햞ea de Trabalho\Github\Projetos_Sistemas_Embarcados\Projeto_Final\Elevador\Projects\UART_inst\ewarm\Obj: [1]
+    RTX_Config.o                 34
+    UART_inst.o               1'900       88       32
+    rtx_lib.o                     2      232    4'940
+    startup_TM4C1294.o          982
+    system_TM4C1294_TW.o         48                 4
+    uartstdio.o               1'528       68    1'178
+    -------------------------------------------------
+    Total:                    4'494      388    6'154
+
+RTX_CM.a: [2]
+    irq_cm4f.o                  196
+    os_systick.o                126                 1
+    rtx_delay.o                 100
+    rtx_evr.o                   116
+    rtx_kernel.o                660       13      164
+    rtx_memory.o                274
+    rtx_mempool.o               230
+    rtx_msgqueue.o            1'776
+    rtx_mutex.o                 844
+    rtx_system.o                372
+    rtx_thread.o              1'928
+    rtx_timer.o                 212
+    -------------------------------------------------
+    Total:                    6'834       13      165
+
+dl7M_tln.a: [3]
+    exit.o                        4
+    low_level_init.o              4
+    -------------------------------------------------
+    Total:                        8
+
+driverlib.a: [4]
+    cpu.o                        16
+    gpio.o                      396      144
+    interrupt.o                 240
+    sysctl.o                    684      588
+    uart.o                      274
+    -------------------------------------------------
+    Total:                    1'610      732
+
+rt7M_tl.a: [5]
+    ABImemclr.o                   6
+    ABImemclr4.o                  6
+    ABImemcpy.o                 166
+    ABImemset.o                  94
+    ABImemset48.o                50
+    cexit.o                      10
+    cmain.o                      30
+    cstartup_M.o                 28
+    data_init.o                  40
+    packbits_init_single.o       58
+    zero_init3.o                 56
+    -------------------------------------------------
+    Total:                      544
+
+shb_l.a: [6]
+    exit.o                       20
+    -------------------------------------------------
+    Total:                       20
+
+    Gaps                          8        2        4
+    Linker created                        32   32'768
+-----------------------------------------------------
+    Grand Total:             13'518    1'167   39'091
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address    Size  Type      Object
+-----                       -------    ----  ----      ------
+.iar.init_table$$Base        0x37e4           --   Gb  - Linker created -
+.iar.init_table$$Limit       0x3804           --   Gb  - Linker created -
+?main                        0x3805          Code  Gb  cmain.o [5]
+CPUcpsid                     0x3151     0x8  Code  Gb  cpu.o [4]
+CPUcpsie                     0x3159     0x8  Code  Gb  cpu.o [4]
+CSTACK$$Base            0x2000'18b8           --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'98b8           --   Gb  - Linker created -
+EvrRtxDelay                  0x3039     0x2  Code  Gb  rtx_evr.o [2]
+EvrRtxDelayCompleted         0x3037     0x2  Code  Gb  rtx_evr.o [2]
+EvrRtxDelayError             0x303b     0x2  Code  Gb  rtx_evr.o [2]
+EvrRtxDelayStarted           0x3035     0x2  Code  Gb  rtx_evr.o [2]
+EvrRtxEventFlagsWaitTimeout
+                             0x303f     0x2  Code  Gb  rtx_evr.o [2]
+EvrRtxKernelError            0x3089     0x2  Code  Gb  rtx_evr.o [2]
+EvrRtxKernelGetState         0x30d1     0x2  Code  Gb  rtx_evr.o [2]
+EvrRtxKernelInitialize       0x314d     0x2  Code  Gb  rtx_evr.o [2]
+EvrRtxKernelInitialized
+                             0x30cf     0x2  Code  Gb  rtx_evr.o [2]
+EvrRtxKernelStart            0x314f     0x2  Code  Gb  rtx_evr.o [2]
+EvrRtxKernelStarted          0x3149     0x2  Code  Gb  rtx_evr.o [2]
+EvrRtxMemoryAlloc            0x3167     0x2  Code  Gb  rtx_evr.o [2]
+EvrRtxMemoryBlockAlloc       0x3163     0x2  Code  Gb  rtx_evr.o [2]
+EvrRtxMemoryBlockFree        0x3165     0x2  Code  Gb  rtx_evr.o [2]
+EvrRtxMemoryBlockInit        0x3161     0x2  Code  Gb  rtx_evr.o [2]
+EvrRtxMemoryFree             0x3169     0x2  Code  Gb  rtx_evr.o [2]
+EvrRtxMemoryInit             0x322b     0x2  Code  Gb  rtx_evr.o [2]
+EvrRtxMemoryPoolAllocTimeout
+                             0x3043     0x2  Code  Gb  rtx_evr.o [2]
+EvrRtxMessageQueueCreated
+                             0x2ea7     0x2  Code  Gb  rtx_evr.o [2]
+EvrRtxMessageQueueError
+                             0x2e1b     0x2  Code  Gb  rtx_evr.o [2]
+EvrRtxMessageQueueGet        0x3033     0x2  Code  Gb  rtx_evr.o [2]
+EvrRtxMessageQueueGetCount
+                             0x2eb5     0x2  Code  Gb  rtx_evr.o [2]
+EvrRtxMessageQueueGetPending
+                             0x2eaf     0x2  Code  Gb  rtx_evr.o [2]
+EvrRtxMessageQueueGetSpace
+                             0x2eb7     0x2  Code  Gb  rtx_evr.o [2]
+EvrRtxMessageQueueGetTimeout
+                             0x2eb1     0x2  Code  Gb  rtx_evr.o [2]
+EvrRtxMessageQueueInsertPending
+                             0x3031     0x2  Code  Gb  rtx_evr.o [2]
+EvrRtxMessageQueueInserted
+                             0x2e17     0x2  Code  Gb  rtx_evr.o [2]
+EvrRtxMessageQueueNew        0x2eb9     0x2  Code  Gb  rtx_evr.o [2]
+EvrRtxMessageQueueNotInserted
+                             0x2ead     0x2  Code  Gb  rtx_evr.o [2]
+EvrRtxMessageQueueNotRetrieved
+                             0x2eb3     0x2  Code  Gb  rtx_evr.o [2]
+EvrRtxMessageQueuePut        0x2ebb     0x2  Code  Gb  rtx_evr.o [2]
+EvrRtxMessageQueuePutPending
+                             0x2ea9     0x2  Code  Gb  rtx_evr.o [2]
+EvrRtxMessageQueuePutTimeout
+                             0x2eab     0x2  Code  Gb  rtx_evr.o [2]
+EvrRtxMessageQueueRetrieved
+                             0x2e19     0x2  Code  Gb  rtx_evr.o [2]
+EvrRtxMutexAcquire           0x2d6d     0x2  Code  Gb  rtx_evr.o [2]
+EvrRtxMutexAcquirePending
+                             0x2d65     0x2  Code  Gb  rtx_evr.o [2]
+EvrRtxMutexAcquireTimeout
+                             0x2d67     0x2  Code  Gb  rtx_evr.o [2]
+EvrRtxMutexAcquired          0x2bf5     0x2  Code  Gb  rtx_evr.o [2]
+EvrRtxMutexCreated           0x2d63     0x2  Code  Gb  rtx_evr.o [2]
+EvrRtxMutexError             0x2bf7     0x2  Code  Gb  rtx_evr.o [2]
+EvrRtxMutexNew               0x2d6b     0x2  Code  Gb  rtx_evr.o [2]
+EvrRtxMutexNotAcquired       0x2d69     0x2  Code  Gb  rtx_evr.o [2]
+EvrRtxMutexRelease           0x2d6f     0x2  Code  Gb  rtx_evr.o [2]
+EvrRtxMutexReleased          0x2bf3     0x2  Code  Gb  rtx_evr.o [2]
+EvrRtxSemaphoreAcquireTimeout
+                             0x3041     0x2  Code  Gb  rtx_evr.o [2]
+EvrRtxThreadBlocked          0x3073     0x2  Code  Gb  rtx_evr.o [2]
+EvrRtxThreadCreated          0x307f     0x2  Code  Gb  rtx_evr.o [2]
+EvrRtxThreadDestroyed        0x3083     0x2  Code  Gb  rtx_evr.o [2]
+EvrRtxThreadError            0x3077     0x2  Code  Gb  rtx_evr.o [2]
+EvrRtxThreadExit             0x3087     0x2  Code  Gb  rtx_evr.o [2]
+EvrRtxThreadFlagsWaitCompleted
+                             0x3075     0x2  Code  Gb  rtx_evr.o [2]
+EvrRtxThreadFlagsWaitTimeout
+                             0x303d     0x2  Code  Gb  rtx_evr.o [2]
+EvrRtxThreadJoined           0x3081     0x2  Code  Gb  rtx_evr.o [2]
+EvrRtxThreadNew              0x3085     0x2  Code  Gb  rtx_evr.o [2]
+EvrRtxThreadPreempted        0x3047     0x2  Code  Gb  rtx_evr.o [2]
+EvrRtxThreadSwitched         0x3071     0x2  Code  Gb  rtx_evr.o [2]
+EvrRtxThreadUnblocked        0x3045     0x2  Code  Gb  rtx_evr.o [2]
+EvrRtxTimerCallback          0x36d9     0x2  Code  Gb  rtx_evr.o [2]
+GPIODirModeSet               0x13d1    0x28  Code  Gb  gpio.o [4]
+GPIOPadConfigSet             0x13f9   0x102  Code  Gb  gpio.o [4]
+GPIOPinConfigure             0x151b    0x36  Code  Gb  gpio.o [4]
+GPIOPinTypeUART              0x1507    0x14  Code  Gb  gpio.o [4]
+GetBufferCount                0xe07    0x16  Code  Lc  uartstdio.o [1]
+IntDisable                   0x2a5d    0x52  Code  Gb  interrupt.o [4]
+IntEnable                    0x2a09    0x52  Code  Gb  interrupt.o [4]
+IntMasterDisable             0x29f9     0x6  Code  Gb  interrupt.o [4]
+IntMasterEnable              0x29f1     0x8  Code  Gb  interrupt.o [4]
+IsBufferEmpty                 0xdf5    0x12  Code  Lc  uartstdio.o [1]
+IsBufferFull                  0xdd9    0x1c  Code  Lc  uartstdio.o [1]
+MessageQueueGet              0x18f5    0x40  Code  Lc  rtx_msgqueue.o [2]
+MessageQueuePut              0x18a9    0x4a  Code  Lc  rtx_msgqueue.o [2]
+MessageQueueRemove           0x1935    0x1a  Code  Lc  rtx_msgqueue.o [2]
+OS_Tick_AcknowledgeIRQ       0x31cd     0xc  Code  Gb  os_systick.o [2]
+OS_Tick_Enable               0x311d    0x2c  Code  Gb  os_systick.o [2]
+OS_Tick_GetIRQn              0x3115     0x6  Code  Gb  os_systick.o [2]
+OS_Tick_Setup                0x30d5    0x40  Code  Gb  os_systick.o [2]
+PendST                  0x2000'18ae     0x1  Data  Lc  os_systick.o [2]
+PendSV_Handler               0x3475          Code  Gb  irq_cm4f.o [2]
+Region$$Table$$Base          0x37e4           --   Gb  - Linker created -
+Region$$Table$$Limit         0x3804           --   Gb  - Linker created -
+SVC_Handler                  0x33dd          Code  Gb  irq_cm4f.o [2]
+SysCtlClockFreqSet            0xb99   0x1fc  Code  Gb  sysctl.o [4]
+SysCtlPeripheralEnable        0xb7b     0x8  Code  Gb  sysctl.o [4]
+SysCtlPeripheralPresent
+                              0xb4f     0xa  Code  Gb  sysctl.o [4]
+SysCtlPeripheralReady         0xb59     0x8  Code  Gb  sysctl.o [4]
+SysTick_Handler              0x3485          Code  Gb  irq_cm4f.o [2]
+SystemCoreClock         0x2000'18b0     0x4  Data  Gb  system_TM4C1294_TW.o [1]
+SystemInit                   0x3745    0x1c  Code  Gb  system_TM4C1294_TW.o [1]
+ThreadFlagsCheck             0x1ffd    0x6c  Code  Lc  rtx_thread.o [2]
+TimerInsert                  0x3531    0x38  Code  Lc  rtx_timer.o [2]
+UART0_Handler                 0x415     0x8  Code  Gb  UART_inst.o [1]
+UARTCharGetNonBlocking       0x2ba3    0x14  Code  Gb  uart.o [4]
+UARTCharPutNonBlocking       0x2bb7    0x18  Code  Gb  uart.o [4]
+UARTCharsAvail               0x2b8b     0x8  Code  Gb  uart.o [4]
+UARTConfigSetExpClk          0x2ae9    0x5c  Code  Gb  uart.o [4]
+UARTDisable                  0x2b5f    0x22  Code  Gb  uart.o [4]
+UARTEnable                   0x2b45    0x1a  Code  Gb  uart.o [4]
+UARTFIFOLevelSet             0x2ae1     0x8  Code  Gb  uart.o [4]
+UARTFlushRx                  0x1207    0x1c  Code  Gb  uartstdio.o [1]
+UARTFlushTx                  0x1223    0x30  Code  Gb  uartstdio.o [1]
+UARTInit                      0x3c1    0x54  Code  Gb  UART_inst.o [1]
+UARTIntClear                 0x2bed     0x6  Code  Gb  uart.o [4]
+UARTIntDisable               0x2bd5     0x4  Code  Gb  uart.o [4]
+UARTIntEnable                0x2bcf     0x6  Code  Gb  uart.o [4]
+UARTIntStatus                0x2be1     0xc  Code  Gb  uart.o [4]
+UARTPrimeTransmit             0xe1d    0x7a  Code  Lc  uartstdio.o [1]
+UARTRxBytesAvail             0x11f9     0xe  Code  Gb  uartstdio.o [1]
+UARTSpaceAvail               0x2b93     0x6  Code  Gb  uart.o [4]
+UARTStdioConfig               0xe97    0x92  Code  Gb  uartstdio.o [1]
+UARTStdioIntHandler          0x1259   0x132  Code  Gb  uartstdio.o [1]
+UARTStdioIntHandler::bLastWasCR
+                        0x2000'18ad     0x1  Data  Lc  uartstdio.o [1]
+UARTgets                      0xfd3    0x62  Code  Gb  uartstdio.o [1]
+UARTprintf                   0x11eb     0xe  Code  Gb  uartstdio.o [1]
+UARTvprintf                  0x1035   0x1b6  Code  Gb  uartstdio.o [1]
+UARTwrite                     0xf29    0xaa  Code  Gb  uartstdio.o [1]
+_SysCtlMemTimingGet           0xb2d    0x22  Code  Lc  sysctl.o [4]
+__Vectors                       0x0           --   Gb  startup_TM4C1294.o [1]
+__Vectors_End                 0x3c0          Data  Gb  startup_TM4C1294.o [1]
+__Vectors_Size {Abs}          0x3c0           --   Gb  startup_TM4C1294.o [1]
+__aeabi_memclr               0x2ea1          Code  Gb  ABImemclr.o [5]
+__aeabi_memclr4              0x3079          Code  Gb  ABImemclr4.o [5]
+__aeabi_memcpy               0x2d71          Code  Gb  ABImemcpy.o [5]
+__aeabi_memcpy4              0x2d91          Code  Gb  ABImemcpy.o [5]
+__aeabi_memcpy8              0x2d91          Code  Gb  ABImemcpy.o [5]
+__cmain                      0x3805          Code  Gb  cmain.o [5]
+__exit                       0x3839    0x14  Code  Gb  exit.o [6]
+__iar_Memset4_word           0x31f9          Code  Gb  ABImemset48.o [5]
+__iar_Memset8_word           0x31f9          Code  Gb  ABImemset48.o [5]
+__iar_Memset_word            0x316d          Code  Gb  ABImemset.o [5]
+__iar_data_init3             0x3775    0x28  Code  Gb  data_init.o [5]
+__iar_init_vfp               0x3871          Code  Wk  startup_TM4C1294.o [1]
+__iar_packbits_init_single3
+                             0x2e67    0x3a  Code  Gb  packbits_init_single.o [5]
+__iar_program_start          0x384d          Code  Gb  cstartup_M.o [5]
+__iar_zero_init3             0x36db    0x38  Code  Gb  zero_init3.o [5]
+__low_level_init             0x3823     0x4  Code  Gb  low_level_init.o [3]
+__vector_table                  0x0          Data  Gb  startup_TM4C1294.o [1]
+__vector_table_0x1c            0x1c          Data  Gb  startup_TM4C1294.o [1]
+_call_main                   0x3811          Code  Gb  cmain.o [5]
+_exit                        0x382d          Code  Gb  cexit.o [5]
+app_main                      0x985    0xee  Code  Gb  UART_inst.o [1]
+exit                         0x3827     0x4  Code  Gb  exit.o [3]
+fila_mensagem_cen       0x2000'188c     0x4  Data  Gb  UART_inst.o [1]
+fila_mensagem_dir       0x2000'1890     0x4  Data  Gb  UART_inst.o [1]
+fila_mensagem_esq       0x2000'1888     0x4  Data  Gb  UART_inst.o [1]
+g_bDisableEcho          0x2000'18ac     0x1  Data  Lc  uartstdio.o [1]
+g_pcHex                      0x394c     0x4  Data  Lc  uartstdio.o [1]
+g_pcUARTRxBuffer        0x2000'16a8    0x80  Data  Lc  uartstdio.o [1]
+g_pcUARTTxBuffer        0x2000'10a8   0x400  Data  Lc  uartstdio.o [1]
+g_pppui32XTALtoVCO           0x322c   0x1b0  Data  Lc  sysctl.o [4]
+g_pui32Dii16Regs             0x2acc    0x14  Data  Lc  interrupt.o [4]
+g_pui32EnRegs                0x2ab8    0x14  Data  Lc  interrupt.o [4]
+g_pui32GPIOBaseAddrs         0x34a0    0x90  Data  Lc  gpio.o [4]
+g_pui32VCOFrequencies         0xdd0     0x8  Data  Lc  sysctl.o [4]
+g_pui32Xtals                 0x35c0    0x6c  Data  Lc  sysctl.o [4]
+g_sXTALtoMEMTIM              0x3714    0x30  Data  Lc  sysctl.o [4]
+g_ui32Base              0x2000'18a4     0x4  Data  Lc  uartstdio.o [1]
+g_ui32PortNum           0x2000'18a8     0x4  Data  Lc  uartstdio.o [1]
+g_ui32UARTBase               0x38c4     0xc  Data  Lc  uartstdio.o [1]
+g_ui32UARTInt                0x38d0     0xc  Data  Lc  uartstdio.o [1]
+g_ui32UARTPeriph             0x38dc     0xc  Data  Lc  uartstdio.o [1]
+g_ui32UARTRxReadIndex   0x2000'18a0     0x4  Data  Lc  uartstdio.o [1]
+g_ui32UARTRxWriteIndex  0x2000'189c     0x4  Data  Lc  uartstdio.o [1]
+g_ui32UARTTxReadIndex   0x2000'1898     0x4  Data  Lc  uartstdio.o [1]
+g_ui32UARTTxWriteIndex  0x2000'1894     0x4  Data  Lc  uartstdio.o [1]
+main                          0xa73    0x5a  Code  Gb  UART_inst.o [1]
+main_thread             0x2000'1880     0x4  Data  Gb  UART_inst.o [1]
+osDelay                      0x1fbd    0x38  Code  Gb  rtx_delay.o [2]
+osKernelGetState             0x2955    0x40  Code  Gb  rtx_kernel.o [2]
+osKernelInitialize           0x291d    0x38  Code  Gb  rtx_kernel.o [2]
+osKernelStart                0x2995    0x34  Code  Gb  rtx_kernel.o [2]
+osMessageQueueGet            0x1e61    0x90  Code  Gb  rtx_msgqueue.o [2]
+osMessageQueueGetCount       0x1ef1    0x38  Code  Gb  rtx_msgqueue.o [2]
+osMessageQueueGetSpace       0x1f31    0x44  Code  Gb  rtx_msgqueue.o [2]
+osMessageQueueNew            0x1d89    0x3e  Code  Gb  rtx_msgqueue.o [2]
+osMessageQueuePut            0x1dc9    0x98  Code  Gb  rtx_msgqueue.o [2]
+osMutexAcquire               0x1819    0x3e  Code  Gb  rtx_mutex.o [2]
+osMutexNew                   0x17e1    0x36  Code  Gb  rtx_mutex.o [2]
+osMutexRelease               0x1859    0x3a  Code  Gb  rtx_mutex.o [2]
+osRtxConfig                  0x362c    0x68  Data  Gb  rtx_lib.o [1]
+osRtxErrorNotify             0x31d9    0x20  Code  Gb  RTX_Config.o [1]
+osRtxIdleThread              0x30d3     0x2  Code  Gb  RTX_Config.o [1]
+osRtxInfo               0x2000'0000    0xa4  Data  Gb  rtx_kernel.o [2]
+osRtxKernelPreInit           0x314b     0x2  Code  Gb  rtx_lib.o [1]
+osRtxMemoryAlloc             0x2cdf    0x84  Code  Gb  rtx_memory.o [2]
+osRtxMemoryFree              0x2e1d    0x4a  Code  Gb  rtx_memory.o [2]
+osRtxMemoryInit              0x308b    0x44  Code  Gb  rtx_memory.o [2]
+osRtxMemoryPoolAlloc         0x2c45    0x44  Code  Gb  rtx_mempool.o [2]
+osRtxMemoryPoolFree          0x2c89    0x56  Code  Gb  rtx_mempool.o [2]
+osRtxMemoryPoolInit          0x2bf9    0x4a  Code  Gb  rtx_mempool.o [2]
+osRtxMessageQueuePostProcess
+                             0x194f    0xe6  Code  Lc  rtx_msgqueue.o [2]
+osRtxMutexOwnerRelease       0x155d    0x52  Code  Gb  rtx_mutex.o [2]
+osRtxPendSV_Handler          0x2f2d    0x8a  Code  Gb  rtx_system.o [2]
+osRtxPostProcess             0x2fb9    0x6e  Code  Gb  rtx_system.o [2]
+osRtxThreadBlock             0x2287    0x34  Code  Lc  rtx_thread.o [2]
+osRtxThreadDelayInsert       0x20df    0x62  Code  Lc  rtx_thread.o [2]
+osRtxThreadDelayRemove       0x2141    0x44  Code  Lc  rtx_thread.o [2]
+osRtxThreadDelayTick         0x2185    0xee  Code  Gb  rtx_thread.o [2]
+osRtxThreadDispatch          0x22d7    0x54  Code  Gb  rtx_thread.o [2]
+osRtxThreadFree              0x25c5    0x56  Code  Lc  rtx_thread.o [2]
+osRtxThreadListGet           0x208b    0x14  Code  Gb  rtx_thread.o [2]
+osRtxThreadListPut           0x2069    0x22  Code  Gb  rtx_thread.o [2]
+osRtxThreadListRemove        0x20c1    0x16  Code  Gb  rtx_thread.o [2]
+osRtxThreadListSort          0x209f    0x22  Code  Gb  rtx_thread.o [2]
+osRtxThreadPostProcess       0x239f    0x54  Code  Lc  rtx_thread.o [2]
+osRtxThreadReadyPut          0x20d7     0x8  Code  Gb  rtx_thread.o [2]
+osRtxThreadRegPtr            0x2273    0x14  Code  Gb  rtx_thread.o [2]
+osRtxThreadStackCheck        0x3049    0x28  Code  Gb  rtx_thread.o [2]
+osRtxThreadStartup           0x26ad    0x30  Code  Gb  rtx_thread.o [2]
+osRtxThreadSwitch            0x22bb    0x1c  Code  Gb  rtx_thread.o [2]
+osRtxThreadWaitEnter         0x2365    0x3a  Code  Gb  rtx_thread.o [2]
+osRtxThreadWaitExit          0x2331    0x2e  Code  Gb  rtx_thread.o [2]
+osRtxTick_Handler            0x2ebd    0x6e  Code  Gb  rtx_system.o [2]
+osRtxTimerThread             0x3695    0x44  Code  Gb  rtx_timer.o [2]
+osRtxTimerTick               0x3569    0x54  Code  Lc  rtx_timer.o [2]
+osRtxUserSVC                 0x3948     0x4  Data  Gb  rtx_lib.o [1]
+osThreadExit                 0x2729    0x16  Code  Gb  rtx_thread.o [2]
+osThreadNew                  0x26e1    0x40  Code  Gb  rtx_thread.o [2]
+os_idle_thread_attr          0x379c    0x24  Data  Lc  rtx_lib.o [1]
+os_idle_thread_cb       0x2000'1778    0x44  Data  Lc  rtx_lib.o [1]
+os_idle_thread_stack    0x2000'14a8   0x100  Data  Lc  rtx_lib.o [1]
+os_isr_queue            0x2000'1800    0x40  Data  Lc  rtx_lib.o [1]
+os_mem                  0x2000'00a8  0x1000  Data  Lc  rtx_lib.o [1]
+os_timer_mq_attr             0x387c    0x18  Data  Lc  rtx_lib.o [1]
+os_timer_mq_cb          0x2000'1840    0x34  Data  Lc  rtx_lib.o [1]
+os_timer_mq_data        0x2000'1728    0x50  Data  Lc  rtx_lib.o [1]
+os_timer_thread_attr         0x37c0    0x24  Data  Lc  rtx_lib.o [1]
+os_timer_thread_cb      0x2000'17bc    0x44  Data  Lc  rtx_lib.o [1]
+os_timer_thread_stack   0x2000'15a8   0x100  Data  Lc  rtx_lib.o [1]
+svcRtxDelay                  0x1f99    0x24  Code  Lc  rtx_delay.o [2]
+svcRtxKernelGetState         0x2873    0x12  Code  Lc  rtx_kernel.o [2]
+svcRtxKernelInitialize       0x275d   0x116  Code  Lc  rtx_kernel.o [2]
+svcRtxKernelStart            0x2885    0x96  Code  Lc  rtx_kernel.o [2]
+svcRtxMessageQueueGet        0x1c39    0xe8  Code  Lc  rtx_msgqueue.o [2]
+svcRtxMessageQueueGetCount
+                             0x1d49    0x12  Code  Lc  rtx_msgqueue.o [2]
+svcRtxMessageQueueGetSpace
+                             0x1d63    0x24  Code  Lc  rtx_msgqueue.o [2]
+svcRtxMessageQueueNew        0x1a35   0x130  Code  Lc  rtx_msgqueue.o [2]
+svcRtxMessageQueuePut        0x1b65    0xd4  Code  Lc  rtx_msgqueue.o [2]
+svcRtxMutexAcquire           0x162d    0xd2  Code  Lc  rtx_mutex.o [2]
+svcRtxMutexNew               0x15af    0x7e  Code  Lc  rtx_mutex.o [2]
+svcRtxMutexRelease           0x16ff    0xd6  Code  Lc  rtx_mutex.o [2]
+svcRtxThreadExit             0x261b    0x8e  Code  Lc  rtx_thread.o [2]
+svcRtxThreadNew              0x23f3   0x1cc  Code  Lc  rtx_thread.o [2]
+thread_elevador               0x41d   0x568  Code  Gb  UART_inst.o [1]
+tid_elevador_cen        0x2000'1878     0x4  Data  Gb  UART_inst.o [1]
+tid_elevador_dir        0x2000'187c     0x4  Data  Gb  UART_inst.o [1]
+tid_elevador_esq        0x2000'1874     0x4  Data  Gb  UART_inst.o [1]
+uart_id                 0x2000'1884     0x4  Data  Gb  UART_inst.o [1]
+
+
+[1] = D:\Users\Default\햞ea de Trabalho\Github\Projetos_Sistemas_Embarcados\Projeto_Final\Elevador\Projects\UART_inst\ewarm\Obj
+[2] = RTX_CM.a
+[3] = dl7M_tln.a
+[4] = driverlib.a
+[5] = rt7M_tl.a
+[6] = shb_l.a
+
+  13'518 bytes of readonly  code memory
+   1'167 bytes of readonly  data memory
+  39'091 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

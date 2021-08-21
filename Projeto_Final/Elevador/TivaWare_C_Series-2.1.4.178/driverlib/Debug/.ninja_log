@@ -1,0 +1,133 @@
+# ninja log v5
+148	551	6456604734801450	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/des.o	2b17461570ba406c
+62	778	6456604737055429	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/aes.o	4211643024561ca6
+106	822	6456604737414464	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/adc.o	e7a3169c1016a910
+556	856	6456604737285143	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/crc.o	7357cac8c0b3aa52
+1	908	6456604737893179	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/can.o	cb0c785adeffa26d
+827	1051	6456604739822015	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/cpu.o	8e6830f54671b2b3
+784	1165	6456604740952590	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/comp.o	76fe83507ad9fca2
+864	1286	6456604742169349	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/eeprom.o	5829f659bf908779
+948	1369	6456604742947264	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/epi.o	99baa159b38c1d62
+1291	1537	6456604744672648	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/fpu.o	410b4594561b6f1a
+1057	1571	6456604744682957	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/gpio.o	706eebd8e8e57145
+1171	1610	6456604744762401	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/flash.o	3b7a3cb2aa0e15a8
+1575	1716	6456604746468090	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/mpu.o	dbbcb03178c955b9
+1542	1769	6456604746976490	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/onewire.o	c195267394fc459a
+1374	1856	6456604747844172	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/emac.o	ace674713f8bfa76
+1614	2013	6456604749400004	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/i2c.o	f8585ea7fcb0096d
+1774	2073	6456604750018395	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/lcd.o	bee57bb19113decc
+1865	2153	6456604750816218	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/interrupt.o	c1bf3f3aa6de2f7b
+1723	2200	6456604751225142	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/hibernate.o	34d2da531ce7d0e6
+2018	2248	6456604751783634	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/sw_crc.o	ac9947bb438fe1b3
+2159	2391	6456604753199848	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/ssi.o	27de829e9f3426d3
+2079	2446	6456604753558905	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/shamd5.o	ff6d47f0bf22a4ec
+2206	2492	6456604753868075	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/qei.o	f72985ccbeea8a15
+2252	2569	6456604754985086	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/pwm.o	65738deb5f16bcab
+2574	2782	6456604757130683	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/sysexc.o	3229a09633e4b289
+2396	2836	6456604757659627	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/udma.o	5e6793e7e8e9c4e9
+2450	2895	6456604758247698	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/timer.o	3bb08e40ea3a051f
+2787	2974	6456604759035603	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/systick.o	456fbd19462359f
+2497	3027	6456604759374692	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/sysctl.o	6cbf33dbc3d8bdbc
+2902	3099	6456604760286779	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/watchdog.o	2f67673374a81c2
+2841	3198	6456604761264415	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/uart.o	1a0a1d927983aa34
+2981	3544	6456604764715195	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/usb.o	c546c44d071e53e9
+3549	3724	6456604766206356	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Exe/driverlib.a	ac9d8a0abfa28175
+107	477	6456625274299060	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/crc.o	7357cac8c0b3aa52
+2	686	6456625276355440	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/aes.o	4211643024561ca6
+484	729	6456625276595140	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/des.o	2b17461570ba406c
+82	773	6456625276903984	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/adc.o	e7a3169c1016a910
+55	822	6456625277402640	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/can.o	cb0c785adeffa26d
+736	1002	6456625279549078	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/comp.o	76fe83507ad9fca2
+778	1039	6456625279549078	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/cpu.o	8e6830f54671b2b3
+693	1107	6456625280586315	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/eeprom.o	5829f659bf908779
+1009	1306	6456625282600917	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/fpu.o	410b4594561b6f1a
+827	1352	6456625282989877	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/gpio.o	706eebd8e8e57145
+1112	1549	6456625284994832	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/epi.o	99baa159b38c1d62
+1311	1599	6456625285453309	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/flash.o	3b7a3cb2aa0e15a8
+1357	1639	6456625285772441	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/onewire.o	c195267394fc459a
+1046	1700	6456625286480548	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/emac.o	ace674713f8bfa76
+1603	2006	6456625289588245	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/mpu.o	dbbcb03178c955b9
+1553	2050	6456625289707940	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/lcd.o	bee57bb19113decc
+1643	2088	6456625290066980	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/i2c.o	f8585ea7fcb0096d
+2056	2250	6456625292021749	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/qei.o	f72985ccbeea8a15
+2013	2294	6456625292221229	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/interrupt.o	c1bf3f3aa6de2f7b
+1707	2326	6456625292480692	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/hibernate.o	34d2da531ce7d0e6
+2257	2533	6456625294422642	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/ssi.o	27de829e9f3426d3
+2300	2577	6456625294958506	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/sw_crc.o	ac9947bb438fe1b3
+2094	2609	6456625294988436	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/pwm.o	65738deb5f16bcab
+2331	2775	6456625297275861	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/shamd5.o	ff6d47f0bf22a4ec
+2582	2975	6456625299278901	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/udma.o	5e6793e7e8e9c4e9
+2540	3023	6456625299418550	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/timer.o	3bb08e40ea3a051f
+2615	3086	6456625300376328	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/sysctl.o	6cbf33dbc3d8bdbc
+2780	3132	6456625300456097	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/uart.o	1a0a1d927983aa34
+2983	3213	6456625301674700	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/systick.o	456fbd19462359f
+3028	3226	6456625301734541	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/sysexc.o	3229a09633e4b289
+3090	3369	6456625303231393	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/watchdog.o	2f67673374a81c2
+3140	3668	6456625306183149	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/usb.o	c546c44d071e53e9
+3676	3852	6456625307791928	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Exe/driverlib.a	ac9d8a0abfa28175
+5	151	6480095089352953	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/comp.o	6f12565d70c730fa
+10	256	6480095090446709	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/aes.o	31c3ec0167dc1848
+1	314	6480095091071701	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/adc.o	cefa9cb0bf76063e
+265	370	6480095091540541	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/cpu.o	b70ba542aa8b3e40
+7	394	6480095091696664	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/can.o	6867dd1d22820fab
+160	443	6480095092321683	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/epi.o	9030defb855febdd
+379	513	6480095092946649	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/crc.o	9fc9eefd7f823ce8
+322	555	6480095093415398	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/des.o	e170cf2f8caf302d
+405	706	6480095094977921	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/eeprom.o	4a8564c77f784b52
+564	766	6480095095602944	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/interrupt.o	599089f344c70275
+719	864	6480095096540438	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/fpu.o	ecbf23788681901f
+452	958	6480095097299291	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/emac.o	7581489442c57adb
+521	1042	6480095098309313	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/hibernate.o	4272879f99573786
+776	1082	6480095098550154	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/flash.o	18f5bd688190a5e1
+1052	1275	6480095100581423	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/qei.o	a37b56d110012f29
+873	1318	6480095101089542	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/i2c.o	a318f0107b94fe82
+1092	1392	6480095101738907	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/shamd5.o	424502cfc48939a5
+1327	1468	6480095102520141	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/mpu.o	e27c4874306acf0c
+968	1493	6480095102676407	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/gpio.o	ce283aed5eba880e
+1286	1570	6480095103583523	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/lcd.o	5b9699219ac32b82
+1401	1624	6480095104052298	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/onewire.o	15657cc6b6bfb544
+1579	1703	6480095104833593	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/systick.o	ac185855601e1082
+1501	1740	6480095105302271	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/sw_crc.o	d76ea5e3ddf23a1
+1476	1793	6480095105864501	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/pwm.o	85fbd8351e10d8ed
+1712	1860	6480095106512242	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/sysexc.o	d2b25ca4a177b291
+1633	1909	6480095106980984	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/ssi.o	cc6eed9b5be30f60
+1868	2002	6480095107972382	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/watchdog.o	be703eadbb5a084f
+1802	2090	6480095108832383	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/timer.o	8795e2d940e685af
+1749	2222	6480095110146952	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/sysctl.o	b1114c85c5b0781b
+2011	2237	6480095110146952	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/udma.o	c8bb71f19139b27f
+2099	2343	6480095111240739	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/uart.o	3fcd1023a2081b6b
+1918	2507	6480095112959821	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/usb.o	e839997fffe62cd2
+2517	2674	6480095114678549	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Exe/driverlib.a	87dab5cc13e75a8c
+6	142	6511914125079457	D:/Users/Default/Área de Trabalho/Github/Projetos_Sistemas_Embarcados/Projeto_Final/Elevador/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/comp.o	9b8210d2dad68d27
+8	308	6511914126740135	D:/Users/Default/Área de Trabalho/Github/Projetos_Sistemas_Embarcados/Projeto_Final/Elevador/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/aes.o	1be40c8e6e2ed921
+1	349	6511914127140022	D:/Users/Default/Área de Trabalho/Github/Projetos_Sistemas_Embarcados/Projeto_Final/Elevador/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/adc.o	a3729361868f8b22
+11	392	6511914127560039	D:/Users/Default/Área de Trabalho/Github/Projetos_Sistemas_Embarcados/Projeto_Final/Elevador/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/can.o	ae0bf99bfbff2661
+153	438	6511914128025167	D:/Users/Default/Área de Trabalho/Github/Projetos_Sistemas_Embarcados/Projeto_Final/Elevador/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/eeprom.o	5245b0ffcb20c42e
+361	498	6511914128655123	D:/Users/Default/Área de Trabalho/Github/Projetos_Sistemas_Embarcados/Projeto_Final/Elevador/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/crc.o	8842f4ff9c2d2a15
+449	558	6511914129220286	D:/Users/Default/Área de Trabalho/Github/Projetos_Sistemas_Embarcados/Projeto_Final/Elevador/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/cpu.o	ae71633a4521b703
+321	625	6511914129900276	D:/Users/Default/Área de Trabalho/Github/Projetos_Sistemas_Embarcados/Projeto_Final/Elevador/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/epi.o	4dc871f3faf0eda7
+569	697	6511914130630270	D:/Users/Default/Área de Trabalho/Github/Projetos_Sistemas_Embarcados/Projeto_Final/Elevador/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/fpu.o	9c64a671e484aa9b
+509	711	6511914130650272	D:/Users/Default/Área de Trabalho/Github/Projetos_Sistemas_Embarcados/Projeto_Final/Elevador/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/des.o	35e28c94059b33c
+707	881	6511914132460384	D:/Users/Default/Área de Trabalho/Github/Projetos_Sistemas_Embarcados/Projeto_Final/Elevador/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/interrupt.o	81030244a773136a
+403	950	6511914133120376	D:/Users/Default/Área de Trabalho/Github/Projetos_Sistemas_Embarcados/Projeto_Final/Elevador/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/emac.o	8ddc822f18960971
+723	966	6511914133160284	D:/Users/Default/Área de Trabalho/Github/Projetos_Sistemas_Embarcados/Projeto_Final/Elevador/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/flash.o	546ad8943c59fab3
+636	1163	6511914135030268	D:/Users/Default/Área de Trabalho/Github/Projetos_Sistemas_Embarcados/Projeto_Final/Elevador/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/gpio.o	6ff449d585f307df
+977	1336	6511914137010271	D:/Users/Default/Área de Trabalho/Github/Projetos_Sistemas_Embarcados/Projeto_Final/Elevador/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/lcd.o	6276c480119d3bc3
+1174	1368	6511914137260293	D:/Users/Default/Área de Trabalho/Github/Projetos_Sistemas_Embarcados/Projeto_Final/Elevador/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/mpu.o	dec32297cbf476ff
+962	1384	6511914137320299	D:/Users/Default/Área de Trabalho/Github/Projetos_Sistemas_Embarcados/Projeto_Final/Elevador/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/i2c.o	d447f117b1518f
+894	1496	6511914138570674	D:/Users/Default/Área de Trabalho/Github/Projetos_Sistemas_Embarcados/Projeto_Final/Elevador/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/hibernate.o	a8aa497530aae8e8
+1349	1565	6511914139310724	D:/Users/Default/Área de Trabalho/Github/Projetos_Sistemas_Embarcados/Projeto_Final/Elevador/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/onewire.o	62e9b4c7343fe33f
+1380	1592	6511914139530652	D:/Users/Default/Área de Trabalho/Github/Projetos_Sistemas_Embarcados/Projeto_Final/Elevador/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/qei.o	1a3218b2b0feeeee
+1395	1753	6511914141170741	D:/Users/Default/Área de Trabalho/Github/Projetos_Sistemas_Embarcados/Projeto_Final/Elevador/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/pwm.o	d23c86797a52ae19
+1577	1782	6511914141460651	D:/Users/Default/Área de Trabalho/Github/Projetos_Sistemas_Embarcados/Projeto_Final/Elevador/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/ssi.o	a54c1eef884c69b3
+1509	1815	6511914141750677	D:/Users/Default/Área de Trabalho/Github/Projetos_Sistemas_Embarcados/Projeto_Final/Elevador/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/shamd5.o	e8b123651abac813
+1602	1830	6511914141795850	D:/Users/Default/Área de Trabalho/Github/Projetos_Sistemas_Embarcados/Projeto_Final/Elevador/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/sw_crc.o	5eab17ead48141e3
+1765	1916	6511914142831077	D:/Users/Default/Área de Trabalho/Github/Projetos_Sistemas_Embarcados/Projeto_Final/Elevador/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/sysexc.o	eed216bf39570953
+1826	1954	6511914143191062	D:/Users/Default/Área de Trabalho/Github/Projetos_Sistemas_Embarcados/Projeto_Final/Elevador/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/systick.o	858a4c3b0b6e325f
+1841	2154	6511914145191055	D:/Users/Default/Área de Trabalho/Github/Projetos_Sistemas_Embarcados/Projeto_Final/Elevador/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/uart.o	9383137a219f819d
+1964	2260	6511914146262126	D:/Users/Default/Área de Trabalho/Github/Projetos_Sistemas_Embarcados/Projeto_Final/Elevador/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/timer.o	860a90752cda6ef0
+1795	2296	6511914146582114	D:/Users/Default/Área de Trabalho/Github/Projetos_Sistemas_Embarcados/Projeto_Final/Elevador/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/sysctl.o	6cbf49c8dee012e9
+2167	2320	6511914146712110	D:/Users/Default/Área de Trabalho/Github/Projetos_Sistemas_Embarcados/Projeto_Final/Elevador/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/watchdog.o	2352d51fb784f05c
+2273	2456	6511914148242122	D:/Users/Default/Área de Trabalho/Github/Projetos_Sistemas_Embarcados/Projeto_Final/Elevador/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/udma.o	5918ba1a7730a534
+1926	2557	6511914149212520	D:/Users/Default/Área de Trabalho/Github/Projetos_Sistemas_Embarcados/Projeto_Final/Elevador/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Obj/Source/usb.o	9e30a4d0e64762f9
+2569	2614	6511914149882118	D:/Users/Default/Área de Trabalho/Github/Projetos_Sistemas_Embarcados/Projeto_Final/Elevador/TivaWare_C_Series-2.1.4.178/driverlib/ewarm/Exe/driverlib.a	2fd1315c65581b20

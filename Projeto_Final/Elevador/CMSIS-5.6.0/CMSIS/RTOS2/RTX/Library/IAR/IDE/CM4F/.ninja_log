@@ -1,0 +1,61 @@
+# ninja log v5
+0	296	6456604819557398	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Handlers/irq_cm4f.o	a900958b2b427593
+30	473	6456604821691618	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/os_systick.o	b143ade4a17d78ef
+299	685	6456604824224576	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_memory.o	3d2390175c0647ed
+151	802	6456604824503836	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_delay.o	da6ea68be1f34623
+206	852	6456604825631052	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_evflags.o	69d5fe248a544c2d
+697	1057	6456604827925491	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_evr.o	8f710a0f577100b4
+813	1346	6456604830826657	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_kernel.o	7a560c8d7529612
+481	1389	6456604830836629	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_msgqueue.o	a4ba35bf508d1fc7
+861	1457	6456604831933707	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_mempool.o	cc934f11000bf5a7
+1068	1506	6456604832432374	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_mutex.o	55e7ba18b0d69696
+1401	1694	6456604834312438	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_system.o	8fa6e46f4d6a5250
+1357	1760	6456604834970688	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_semaphore.o	d5ebbc8786a29c36
+1515	1923	6456604836606302	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_timer.o	5636f56132b01e50
+1469	2328	6456604840627709	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_thread.o	3209d55d818767b8
+2336	2460	6456604841870440	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Exe/RTX_CM.a	59a3a49cdf66ada
+1	308	6456625333216361	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Handlers/irq_cm4f.o	a900958b2b427593
+35	632	6456625338089457	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/os_systick.o	b143ade4a17d78ef
+168	733	6456625339246370	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_delay.o	da6ea68be1f34623
+312	780	6456625339545571	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_memory.o	3d2390175c0647ed
+120	902	6456625341061749	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_evflags.o	69d5fe248a544c2d
+640	987	6456625341909252	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_evr.o	8f710a0f577100b4
+788	1271	6456625344741667	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_mempool.o	cc934f11000bf5a7
+743	1318	6456625344931178	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_kernel.o	7a560c8d7529612
+910	1582	6456625347863336	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_msgqueue.o	a4ba35bf508d1fc7
+1280	1674	6456625348780866	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_timer.o	5636f56132b01e50
+1327	1725	6456625348980621	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_semaphore.o	d5ebbc8786a29c36
+996	1979	6456625351802803	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_thread.o	3209d55d818767b8
+1686	1989	6456625351852672	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_system.o	8fa6e46f4d6a5250
+1591	2032	6456625352361546	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_mutex.o	55e7ba18b0d69696
+2040	2222	6456625353869278	C:/Users/hviei/Documents/GitHub/TM4C1294_RTOS_IAR9/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Exe/RTX_CM.a	59a3a49cdf66ada
+4	163	6480095148477805	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/os_systick.o	5d223d12e377b184
+0	213	6480095149102742	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_delay.o	9bb6d25977c5b6b1
+11	306	6480095150040244	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_evr.o	94bc1737fdb7bc87
+8	445	6480095151290269	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_evflags.o	e26f09a520f99ebf
+180	654	6480095153477821	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_kernel.o	be8227ce5c4913d0
+230	696	6480095153633971	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_mempool.o	f28bce7be57950a1
+715	750	6480095154415230	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Handlers/irq_cm4f.o	b8086d642063ccc3
+679	894	6480095155798453	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_memory.o	61329ab4c14b1338
+468	915	6480095155798453	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_mutex.o	816599dfb03ddce8
+323	996	6480095156735911	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_msgqueue.o	cc0aed0009947f0a
+756	1186	6480095158678684	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_semaphore.o	61eebc0e2d6b6dc8
+911	1219	6480095159072837	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_system.o	71f1672b89a1ef6f
+933	1315	6480095160010451	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_timer.o	6cff2f8626463318
+1016	1896	6480095165889319	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_thread.o	356b1c7d41265c9a
+1915	1939	6480095166358073	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Exe/RTX_CM.a	fd0af31bb42e4f50
+1	35	6511913969466647	D:/Users/Default/Área de Trabalho/Github/Projetos_Sistemas_Embarcados/Projeto_Final/Elevador/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Handlers/irq_cm4f.o	ff27104fe3261ba3
+9	194	6511913970967694	D:/Users/Default/Área de Trabalho/Github/Projetos_Sistemas_Embarcados/Projeto_Final/Elevador/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/os_systick.o	bb140f34596ffa4a
+12	234	6511913971347703	D:/Users/Default/Área de Trabalho/Github/Projetos_Sistemas_Embarcados/Projeto_Final/Elevador/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_delay.o	2ed7247d1c203142
+213	421	6511913973247650	D:/Users/Default/Área de Trabalho/Github/Projetos_Sistemas_Embarcados/Projeto_Final/Elevador/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_memory.o	f6e50f0d19ba7330
+44	478	6511913973797649	D:/Users/Default/Área de Trabalho/Github/Projetos_Sistemas_Embarcados/Projeto_Final/Elevador/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_mutex.o	95e36b90f8b07787
+5	517	6511913973977659	D:/Users/Default/Área de Trabalho/Github/Projetos_Sistemas_Embarcados/Projeto_Final/Elevador/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_evflags.o	83d78e6ee87ccd0d
+254	735	6511913976358560	D:/Users/Default/Área de Trabalho/Github/Projetos_Sistemas_Embarcados/Projeto_Final/Elevador/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_mempool.o	ff639219f1afae2
+500	805	6511913977058181	D:/Users/Default/Área de Trabalho/Github/Projetos_Sistemas_Embarcados/Projeto_Final/Elevador/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_evr.o	9d163d1366f00540
+442	950	6511913978518174	D:/Users/Default/Área de Trabalho/Github/Projetos_Sistemas_Embarcados/Projeto_Final/Elevador/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_kernel.o	855c363fe3c7b0f8
+758	1023	6511913979228267	D:/Users/Default/Área de Trabalho/Github/Projetos_Sistemas_Embarcados/Projeto_Final/Elevador/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_system.o	6d12ad224447ef8b
+537	1167	6511913980688166	D:/Users/Default/Área de Trabalho/Github/Projetos_Sistemas_Embarcados/Projeto_Final/Elevador/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_msgqueue.o	48ae7d5685b08429
+973	1463	6511913983648174	D:/Users/Default/Área de Trabalho/Github/Projetos_Sistemas_Embarcados/Projeto_Final/Elevador/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_timer.o	8e90ae71c978e1cf
+1046	1550	6511913984528179	D:/Users/Default/Área de Trabalho/Github/Projetos_Sistemas_Embarcados/Projeto_Final/Elevador/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_semaphore.o	bd58f4ac58731948
+827	1918	6511913988198149	D:/Users/Default/Área de Trabalho/Github/Projetos_Sistemas_Embarcados/Projeto_Final/Elevador/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Obj/Core/rtx_thread.o	4a9d1f7db6fc76fc
+1939	2080	6511913989919547	D:/Users/Default/Área de Trabalho/Github/Projetos_Sistemas_Embarcados/Projeto_Final/Elevador/CMSIS-5.6.0/CMSIS/RTOS2/RTX/Library/IAR/IDE/CM4F/Exe/RTX_CM.a	f6c94b8e8c84a1fd
