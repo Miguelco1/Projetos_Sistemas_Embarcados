@@ -1,0 +1,15 @@
+# ninja log v5
+1	407	6511169704293282	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/Projects/UART_inst/ewarm/Obj/startup_TM4C1294.o	6e841c6d97d3f30f
+394	949	6511169709763290	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/Projects/UART_inst/ewarm/Obj/rtx_lib.o	a0649ef1ae25bb24
+224	971	6511169709753308	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/Projects/UART_inst/ewarm/Obj/RTX_Config.o	bb2c8f05ed18bb1f
+391	1042	6511169710753291	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/Projects/UART_inst/ewarm/Obj/system_TM4C1294_TW.o	2e5209a34018ba2d
+967	1418	6511169714564289	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/Projects/UART_inst/ewarm/Obj/UART_inst.o	1bb18c6abaf5cbc7
+412	1450	6511169714774329	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/Projects/UART_inst/ewarm/Obj/uartstdio.o	f1328515a1d40a13
+1468	1819	6511169718524296	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/Projects/UART_inst/ewarm/Exe/UART_inst.out	f050925e88ae80e5
+1837	1903	6511169719494293	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/Projects/UART_inst/ewarm/Exe/UART_inst.bin	735ac847038f0429
+2	157	6511171131578438	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/Projects/UART_inst/ewarm/Obj/UART_inst.o	1bb18c6abaf5cbc7
+174	280	6511171132778436	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/Projects/UART_inst/ewarm/Exe/UART_inst.out	f050925e88ae80e5
+296	306	6511171133138474	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/Projects/UART_inst/ewarm/Exe/UART_inst.bin	735ac847038f0429
+2	216	6511221221010593	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/Projects/UART_inst/ewarm/Obj/UART_inst.o	1bb18c6abaf5cbc7
+236	350	6511221222409652	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/Projects/UART_inst/ewarm/Exe/UART_inst.out	f050925e88ae80e5
+369	380	6511221222807779	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/Projects/UART_inst/ewarm/Exe/UART_inst.bin	735ac847038f0429

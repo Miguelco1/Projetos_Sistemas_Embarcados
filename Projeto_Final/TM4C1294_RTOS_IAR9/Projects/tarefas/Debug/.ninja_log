@@ -1,0 +1,25 @@
+# ninja log v5
+10	50	6480170533644819	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/Projects/tarefas/ewarm/Obj/startup_TM4C1294.o	d6fed187d7747ea1
+13	325	6480170536295159	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/Projects/tarefas/ewarm/Obj/tarefas.o	a028826143dd8a6
+0	360	6480170536465094	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/Projects/tarefas/ewarm/Obj/driverleds.o	b4e2f08a9181c9b4
+6	377	6480170536425048	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/Projects/tarefas/ewarm/Obj/RTX_Config.o	9b31e7ea8af663fc
+57	404	6480170536775052	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/Projects/tarefas/ewarm/Obj/rtx_lib.o	429a5130f30e427
+342	483	6480170537905045	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/Projects/tarefas/ewarm/Obj/system_TM4C1294_TW.o	ba8252581cb506f6
+513	613	6480170539190615	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/Projects/tarefas/ewarm/Exe/tarefas.out	2ee904a83e924ba2
+632	643	6480170539570293	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/Projects/tarefas/ewarm/Exe/tarefas.bin	c0198817fe1f192
+1	87	6480225214680248	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/Projects/tarefas/ewarm/Obj/tarefas.o	a028826143dd8a6
+0	83	6480225625163208	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/Projects/tarefas/ewarm/Obj/tarefas.o	a028826143dd8a6
+2	125	6480225675572504	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/Projects/tarefas/ewarm/Exe/tarefas.out	2ee904a83e924ba2
+145	156	6480225675884666	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/Projects/tarefas/ewarm/Exe/tarefas.bin	c0198817fe1f192
+0	84	6480229445198758	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/Projects/tarefas/ewarm/Obj/tarefas.o	a028826143dd8a6
+1	86	6480229836285322	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/Projects/tarefas/ewarm/Obj/tarefas.o	a028826143dd8a6
+1	80	6480229905379792	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/Projects/tarefas/ewarm/Obj/tarefas.o	a028826143dd8a6
+0	88	6480230016899269	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/Projects/tarefas/ewarm/Obj/tarefas.o	a028826143dd8a6
+2	98	6480230049178187	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/Projects/tarefas/ewarm/Exe/tarefas.out	2ee904a83e924ba2
+118	127	6480230049646593	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/Projects/tarefas/ewarm/Exe/tarefas.bin	c0198817fe1f192
+1	85	6480231891111483	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/Projects/tarefas/ewarm/Obj/tarefas.o	a028826143dd8a6
+2	100	6480231943181589	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/Projects/tarefas/ewarm/Exe/tarefas.out	2ee904a83e924ba2
+117	126	6480231943494068	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/Projects/tarefas/ewarm/Exe/tarefas.bin	c0198817fe1f192
+2	83	6480232341942555	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/Projects/tarefas/ewarm/Obj/tarefas.o	a028826143dd8a6
+99	192	6480232343036302	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/Projects/tarefas/ewarm/Exe/tarefas.out	2ee904a83e924ba2
+209	217	6480232343348443	D:/Users/Default/Área de Trabalho/Github/TM4C1294_RTOS_IAR9/Projects/tarefas/ewarm/Exe/tarefas.bin	c0198817fe1f192
